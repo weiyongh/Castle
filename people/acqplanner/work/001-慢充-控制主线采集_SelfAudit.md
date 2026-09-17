@@ -1,10 +1,10 @@
 ---
 author: Planner
-version: 0.7
+version: 1.0
 create_time: 2026-09-17 01:09 +0800
-update_time: 2026-09-17 12:26 +0800
+update_time: 2026-09-17 12:50 +0800
 status: CONFIRM
-self_audit_time: 2026-09-17 12:18 +0800
+self_audit_time: 2026-09-17 12:45 +0800
 ---
 
 # 001-慢充-控制主线采集 SelfAudit
@@ -109,3 +109,42 @@ SelfCheck 与 SelfAudit 4 通过，版本 0.4 具备提交 Independent Audit 的
 6. **内容边界：PASS**。记录只描述现场实际操作，不推断内部 Signal 或诊断结论。
 
 SelfCheck 与 SelfAudit 5 通过，版本 0.5 具备再次提交 Independent Audit 的条件。本结果不代表 `CONFIRM` 或 `PUBLISH`。
+
+## Adjustment 5
+
+版本 0.5 通过 Independent Audit 后，为只听播报的现场执行者增强第一行提示，修订为版本 0.6：
+
+- 增加 `新建现场记录` 和 `保存现场记录` 两个播报事件；
+- 启动和停止播报直接提醒记下操作方式；
+- 拍照播报明确包含充电状态和数据；
+- `解锁` 改为 `解锁充电口`。
+
+## SelfAudit 6
+
+1. **目的覆盖：PASS**。控制主线和现场取证内容未改变，必须完成的记录动作均有独立播报提示。
+2. **步骤必要性：PASS**。只增加新建与保存记录两个必要提示，没有继续扩展其他事件。
+3. **现场可执行性：PASS**。只听第一行播报即可知道何时操作、拍照、记录及保存。
+4. **时序：PASS**。现场记录在插枪前新建，在拔枪后的断开保持阶段保存，不干扰车辆操作。
+5. **分析线索：PASS**。启动和停止方式继续按实际采集秒数记录并与 CAN 文件关联。
+6. **内容边界：PASS**。未引入品牌、车型、App 或专属界面路径。
+
+SelfCheck 与 SelfAudit 6 通过，版本 0.6 具备提交 Independent Audit 的条件。本结果不代表 `CONFIRM` 或 `PUBLISH`。
+
+## Adjustment 6
+
+根据 Independent Audit 5 的 Audit Finding 3 修订为版本 0.7，不增加 Event，只补足现有第一行播报：
+
+- 新建记录时直接说明与 CAN 同名；
+- 启动和停止时直接提醒记录实际秒数和方式；
+- 保存记录时直接说明与 CAN 一起交付。
+
+## SelfAudit 7
+
+1. **目的覆盖：PASS**。第一行播报覆盖现场操作、取证、记录时间、文件关联和交付要求。
+2. **步骤必要性：PASS**。没有增加 Event，仅补充完成既有记录闭环必需的词语。
+3. **现场可执行性：PASS**。只听第一行即可完成车辆操作和两行现场记录，并知道如何保存交付。
+4. **时序：PASS**。新建、填写和保存仍位于原有时点，没有改变车辆控制顺序。
+5. **分析线索：PASS**。记录包含实际秒数，通过同名文件与 CAN 关联并一起交付。
+6. **内容边界：PASS**。未增加控制分支、车型路径或内部 Signal 推断。
+
+SelfCheck 与 SelfAudit 7 通过，版本 0.7 具备再次提交 Independent Audit 的条件。本结果不代表 `CONFIRM` 或 `PUBLISH`。

@@ -1,8 +1,8 @@
 ---
 author: Planner
-version: 1.4
+version: 2.1
 create_time: 2026-09-17 02:19 +0800
-update_time: 2026-09-17 12:26 +0800
+update_time: 2026-09-17 12:50 +0800
 status: CONFIRM
 ---
 
@@ -281,4 +281,152 @@ audit_result: PASS
 - Synchronization Time: 2026-09-17 12:26 +0800
 - Basis: Independent Audit 4 的 `audit_result: PASS`。
 - Action: 将版本 0.5 的成果及对应过程记录状态从 `TO_AUDIT` 同步为 `CONFIRM`。
+- Publication: 未执行 `PUBLISH`，未写入 Castle Acquisition Assets。
+
+## Revision 2 — Planner
+
+Revision Time: 2026-09-17 12:39 +0800
+
+- 版本 0.5 已通过 Independent Audit 4，但尚未 `PUBLISH`。
+- 为照顾现场只听播报、不查看缩进说明的执行方式，版本 0.6 增强必要的第一行提示。
+- 改动仅包括新建/保存现场记录提示，以及启动、拍照、停止和解锁播报文字。
+- 本次属于通过审计后的实质内容修改，因此版本 0.6 重新进入 Independent Audit。
+
+## Submission 5 — Planner
+
+Submission Time: 2026-09-17 12:39 +0800
+
+### Audit Request
+
+- Purpose: 审核版本 0.6 的第一行播报是否足以让只听提示的现场执行者完成操作、取证和记录，同时保持既有慢充主线及证据要求不变。
+- Scope: 版本 0.5 的完整范围，以及新建/保存现场记录、启动方式记录、充电数据拍摄、停止方式记录和充电口解锁的播报提示。
+- Out of Scope: 不新增控制分支；不主动制造故障或保护分支；不执行 DTC 读取；不在本轮解释或诊断采集所得 Signal。
+- Audit Basis: `doc/交流慢充L3控制树采集.md`；L3 Knowledge `新能源汽修L3学习-交流慢充`；`doc/采集输出规范.md`。
+
+### Submitted Artifacts
+
+- `001-慢充-控制主线采集.source.json` — SHA-256 `b39d751c80b874a1d76d96a2cbadf2150ba43b7317d9dec549f9c60e53e3e980`
+- `001-慢充-控制主线采集.txt` — SHA-256 `e0e951c082046de733ed1b5c218a37c70fad649c29d26ae42138081170d599f5`
+- `001-慢充-控制主线采集.md` — SHA-256 `108956d51c6036671b2527c3d1f45203cc9efec6028b1c063cfed0a92b6ff019`
+
+### SelfAudit
+
+- `001-慢充-控制主线采集_SelfAudit.md` — SelfAudit 6
+
+## Submission 5 Notification — Planner
+
+- Notification Time: 2026-09-17 12:42 +0800
+- From Thread: `01a0a9b8-c1c7-7b20-b7fa-b3af351f61ca`
+- To Auditor Thread: `01a0ab9f-3aeb-7900-952a-b58356275f10`
+- Delivery: SUCCESS
+- Scope: 通知 `Submission 5 — Planner` 已送审，并提供 Audit Record、被审版本、播报改动和双方任务地址。
+
+## Independent Audit 5 — Auditor
+
+auditor: Auditor
+audit_time: 2026-09-17 12:43 +0800
+audit_result: REJECT
+
+### Verification
+
+- Submission 5 中的 `.source.json`、`.txt` 和 `.md` SHA-256 与实际文件一致。
+- 三份被审成果均为版本 `0.6`、状态 `TO_AUDIT`；SelfAudit 6 与本轮提交一致。
+- 以 `PYTHONDONTWRITEBYTECODE=1` 执行 `python3 ../acqplanner/src/acquisition.py check ../acqplanner/work/001-慢充-控制主线采集.source.json --output-dir ../acqplanner/work`：PASS。
+- 以 `PYTHONDONTWRITEBYTECODE=1` 执行 `python3 -m unittest discover -s ../acqplanner/src/tests`：PASS（11 tests）。
+
+### 只听第一行的现场走查
+
+- `00s → 15s`：执行人能开始采集并新建一份现场记录，但单听第一行不知道该记录需要与本次 CAN 文件同名关联。
+- `30s → 60s`：能完成插枪，判断是否自动启动，必要时从充电设施正常启动，并记下启动方式。
+- `150s`：能知道需要拍摄充电状态和数据。
+- `270s → 375s`：能停止充电、记下停止方式、拍摄停止状态，然后解锁和拔枪。
+- `420s → 435s`：能保存现场记录并停止采集，但单听第一行不知道记录中必须写实际采集秒数，也不知道必须将它与 CAN 文件一起保存和交付。
+
+### Audit Finding 3 — 第一行播报不足以独立完成本轮声称的记录闭环
+
+- **Evidence:** 现场记录的同名关联规则、“实际秒数”字段和与 CAN 文件一起交付的要求，只出现在缩进说明或《操作记录》中；对应的第一行仅播报“新建现场记录”、“记下启动/停止方式”和“保存现场记录”。
+- **Impact:** 按 Submission 5 的明确目标，执行人只听第一行时，可以把车辆操作顺序走完，但可能产生无时间、无文件关联或未随 CAN 交付的记录；这样不能靠播报单独完成“操作、取证和记录”。
+- **Required outcome:** 要么让第一行播报本身覆盖必需的时间与文件关联要求，要么缩小本轮 Purpose，明确执行人已事先阅读或掌握记录规则；不限定具体文案实现。
+
+### Result
+
+`REJECT`
+
+本结果表示 Submission 5 锁定的版本 `0.6` 暂未通过 Independent Audit。车辆操作主线可以走通，但“只听第一行就能完成全部记录闭环”的送审目标还站不住。Auditor 未修改被审 `.source.json`、`.txt`、`.md` 或 `_SelfAudit.md`。
+
+## Response 3 — Planner
+
+Response Time: 2026-09-17 12:45 +0800
+
+- 接受 Audit Finding 3。
+- 不增加 Event，只补足四条现有播报。
+- 新建记录时说明与 CAN 同名；启动和停止时说明记录秒数和方式；保存时说明与 CAN 一起交付。
+
+## Submission 6 — Planner
+
+Submission Time: 2026-09-17 12:45 +0800
+
+### Audit Request
+
+- Purpose: 复审版本 0.7 的第一行播报是否已覆盖现场记录所需的实际秒数、CAN 文件关联和随 CAN 交付要求，同时保持既有车辆操作和取证流程不变。
+- Scope: Submission 5 的完整范围，以及 Audit Finding 3 指出的四条播报信息。
+- Out of Scope: 不新增 Event 或控制分支；不主动制造故障或保护分支；不执行 DTC 读取；不在本轮解释或诊断采集所得 Signal。
+- Audit Basis: Independent Audit 5 的 Audit Finding 3；`doc/交流慢充L3控制树采集.md`；L3 Knowledge `新能源汽修L3学习-交流慢充`；`doc/采集输出规范.md`。
+
+### Submitted Artifacts
+
+- `001-慢充-控制主线采集.source.json` — SHA-256 `40363d1b16a8b3e03cf1ba5d8189a5bce8d602aa9006ae1e4ee68d82e5190e6d`
+- `001-慢充-控制主线采集.txt` — SHA-256 `eab001da78a27efe2623bd0df09999da17a4a8a16ba258c7f5256e2b376ddf44`
+- `001-慢充-控制主线采集.md` — SHA-256 `9995a2d2ffd4b64397ebf7b29e644ec70dec76269aeed8d6da76604057014ee5`
+
+### SelfAudit
+
+- `001-慢充-控制主线采集_SelfAudit.md` — SelfAudit 7
+
+## Submission 6 Notification — Planner
+
+- Notification Time: 2026-09-17 12:47 +0800
+- From Thread: `01a0a9b8-c1c7-7b20-b7fa-b3af351f61ca`
+- To Auditor Thread: `01a0ab9f-3aeb-7900-952a-b58356275f10`
+- Delivery: SUCCESS
+- Scope: 通知 `Submission 6 — Planner` 已送审，并提供 Audit Record、被审版本、Finding 处理和双方任务地址。
+
+## Independent Audit 6 — Auditor
+
+auditor: Auditor
+audit_time: 2026-09-17 12:48 +0800
+audit_result: PASS
+
+### Verification
+
+- Submission 6 中的 `.source.json`、`.txt` 和 `.md` SHA-256 与实际文件一致。
+- 三份被审成果均为版本 `0.7`、状态 `TO_AUDIT`；SelfAudit 7 的调整记录与本轮提交一致。
+- `acquisition.py check`：PASS。
+- `python3 -m unittest discover -s ../acqplanner/src/tests`：PASS（11 tests）。
+
+### 只听第一行的现场走查
+
+- `00s → 15s`：开始采集后，播报要求新建与 CAN 同名的现场记录，文件关联已明确。
+- `30s → 60s`：插枪后判断是否自动启动；未启动时正常启动，并按播报记录实际秒数和启动方式。
+- `150s → 270s`：充电稳定后拍摄状态和数据；停止时记录实际秒数和停止方式。
+- `345s → 435s`：先拍停止状态，再解锁、拔枪；断开保持期内保存现场记录并与 CAN 一起交付，`435s` 满足拔枪后 60 秒再停止采集。
+- 四条播报的增补未改变车辆操作顺序，也未引入单人无法完成的动作冲突。
+
+### Finding Disposition
+
+- Independent Audit 5 的 Audit Finding 3：`CLOSED`。
+- 新建记录的播报已说明与 CAN 同名；启动和停止播报已说明记录秒数和方式；保存播报已说明与 CAN 一起交付。
+- 复审完整范围后，未发现新的实质问题。
+
+### Result
+
+`PASS`
+
+本结果表示 Submission 6 锁定的版本 `0.7` 通过 Independent Audit。Auditor 未修改被审 `.source.json`、`.txt`、`.md` 或 `_SelfAudit.md`；由 Planner 根据本结果将成果状态同步为 `CONFIRM`。`PASS` / `CONFIRM` 不等于 `PUBLISH`。
+
+## Status Synchronization 3 — Planner
+
+- Synchronization Time: 2026-09-17 12:50 +0800
+- Basis: Independent Audit 6 的 `audit_result: PASS`。
+- Action: 将版本 0.7 的成果及对应过程记录状态从 `TO_AUDIT` 同步为 `CONFIRM`。
 - Publication: 未执行 `PUBLISH`，未写入 Castle Acquisition Assets。
