@@ -1,0 +1,1970 @@
+{
+  "method": {
+    "input_warning": "Input candidates were selected with predefined phase windows.",
+    "pair_rule": "Exactly two opposite-direction transitions in the ASC.",
+    "cluster_tolerance_s": 0.25,
+    "meaning": "Temporal co-movement only; no causality or Signal semantics."
+  },
+  "charge_pairs": [
+    {
+      "can_id": "0x132",
+      "byte": 3,
+      "bit_lsb0": 0,
+      "start_s": 63.497,
+      "end_s": 256.1309,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x132",
+      "byte": 3,
+      "bit_lsb0": 1,
+      "start_s": 63.497,
+      "end_s": 256.1309,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x132",
+      "byte": 3,
+      "bit_lsb0": 2,
+      "start_s": 63.497,
+      "end_s": 256.1309,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x132",
+      "byte": 3,
+      "bit_lsb0": 3,
+      "start_s": 63.497,
+      "end_s": 256.1309,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x132",
+      "byte": 3,
+      "bit_lsb0": 4,
+      "start_s": 63.497,
+      "end_s": 256.1309,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x132",
+      "byte": 3,
+      "bit_lsb0": 5,
+      "start_s": 63.497,
+      "end_s": 256.1309,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x132",
+      "byte": 3,
+      "bit_lsb0": 6,
+      "start_s": 63.497,
+      "end_s": 256.1309,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x132",
+      "byte": 3,
+      "bit_lsb0": 7,
+      "start_s": 63.497,
+      "end_s": 256.1309,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x21D",
+      "byte": 0,
+      "bit_lsb0": 0,
+      "start_s": 53.723,
+      "end_s": 256.8368,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x21D",
+      "byte": 0,
+      "bit_lsb0": 1,
+      "start_s": 53.723,
+      "end_s": 256.8368,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x21D",
+      "byte": 0,
+      "bit_lsb0": 5,
+      "start_s": 53.6234,
+      "end_s": 256.1366,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x21D",
+      "byte": 1,
+      "bit_lsb0": 6,
+      "start_s": 53.5226,
+      "end_s": 256.1366,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x21D",
+      "byte": 6,
+      "bit_lsb0": 5,
+      "start_s": 53.6234,
+      "end_s": 256.1366,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x25D",
+      "byte": 0,
+      "bit_lsb0": 2,
+      "start_s": 55.6244,
+      "end_s": 256.8381,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x43D",
+      "byte": 0,
+      "bit_lsb0": 2,
+      "start_s": 53.7237,
+      "end_s": 256.8377,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x43D",
+      "byte": 1,
+      "bit_lsb0": 6,
+      "start_s": 53.5244,
+      "end_s": 256.1378,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x2D2",
+      "byte": 2,
+      "bit_lsb0": 2,
+      "start_s": 53.8337,
+      "end_s": 256.2344,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x2D2",
+      "byte": 2,
+      "bit_lsb0": 3,
+      "start_s": 55.635,
+      "end_s": 256.2344,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x2D2",
+      "byte": 4,
+      "bit_lsb0": 6,
+      "start_s": 53.7336,
+      "end_s": 256.2344,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x2D2",
+      "byte": 5,
+      "bit_lsb0": 1,
+      "start_s": 53.7336,
+      "end_s": 256.2344,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x2D2",
+      "byte": 5,
+      "bit_lsb0": 2,
+      "start_s": 53.7336,
+      "end_s": 256.2344,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x2D2",
+      "byte": 6,
+      "bit_lsb0": 1,
+      "start_s": 53.7336,
+      "end_s": 256.2344,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x2D2",
+      "byte": 6,
+      "bit_lsb0": 2,
+      "start_s": 53.7336,
+      "end_s": 256.2344,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x2D2",
+      "byte": 6,
+      "bit_lsb0": 3,
+      "start_s": 53.7336,
+      "end_s": 256.2344,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x2D2",
+      "byte": 6,
+      "bit_lsb0": 6,
+      "start_s": 53.7336,
+      "end_s": 256.2344,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x2D2",
+      "byte": 6,
+      "bit_lsb0": 7,
+      "start_s": 53.7336,
+      "end_s": 256.2344,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x212",
+      "byte": 0,
+      "bit_lsb0": 0,
+      "start_s": 53.7338,
+      "end_s": 256.2337,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x212",
+      "byte": 1,
+      "bit_lsb0": 4,
+      "start_s": 53.7338,
+      "end_s": 256.2337,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x212",
+      "byte": 3,
+      "bit_lsb0": 6,
+      "start_s": 53.7338,
+      "end_s": 256.2337,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x212",
+      "byte": 4,
+      "bit_lsb0": 0,
+      "start_s": 53.7338,
+      "end_s": 256.2337,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x212",
+      "byte": 5,
+      "bit_lsb0": 5,
+      "start_s": 55.6341,
+      "end_s": 256.2337,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x212",
+      "byte": 5,
+      "bit_lsb0": 6,
+      "start_s": 55.6341,
+      "end_s": 256.2337,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x212",
+      "byte": 5,
+      "bit_lsb0": 7,
+      "start_s": 55.6341,
+      "end_s": 256.2337,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x212",
+      "byte": 6,
+      "bit_lsb0": 0,
+      "start_s": 55.6341,
+      "end_s": 256.2337,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x212",
+      "byte": 6,
+      "bit_lsb0": 1,
+      "start_s": 55.6341,
+      "end_s": 256.2337,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x212",
+      "byte": 6,
+      "bit_lsb0": 2,
+      "start_s": 55.6341,
+      "end_s": 256.2337,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x212",
+      "byte": 7,
+      "bit_lsb0": 0,
+      "start_s": 53.7338,
+      "end_s": 256.2337,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x212",
+      "byte": 7,
+      "bit_lsb0": 5,
+      "start_s": 53.7338,
+      "end_s": 256.2337,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x252",
+      "byte": 0,
+      "bit_lsb0": 7,
+      "start_s": 53.7341,
+      "end_s": 256.234,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x252",
+      "byte": 1,
+      "bit_lsb0": 1,
+      "start_s": 53.7341,
+      "end_s": 256.234,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x252",
+      "byte": 1,
+      "bit_lsb0": 2,
+      "start_s": 53.7341,
+      "end_s": 256.234,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x252",
+      "byte": 1,
+      "bit_lsb0": 4,
+      "start_s": 53.7341,
+      "end_s": 256.234,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x252",
+      "byte": 3,
+      "bit_lsb0": 0,
+      "start_s": 54.035,
+      "end_s": 256.3332,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x252",
+      "byte": 3,
+      "bit_lsb0": 1,
+      "start_s": 54.035,
+      "end_s": 256.3332,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x252",
+      "byte": 4,
+      "bit_lsb0": 2,
+      "start_s": 55.7343,
+      "end_s": 256.3332,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x252",
+      "byte": 4,
+      "bit_lsb0": 4,
+      "start_s": 55.6343,
+      "end_s": 256.3332,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x252",
+      "byte": 4,
+      "bit_lsb0": 5,
+      "start_s": 55.6343,
+      "end_s": 256.3332,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x252",
+      "byte": 4,
+      "bit_lsb0": 6,
+      "start_s": 55.6343,
+      "end_s": 256.3332,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x252",
+      "byte": 4,
+      "bit_lsb0": 7,
+      "start_s": 55.7343,
+      "end_s": 256.3332,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x252",
+      "byte": 5,
+      "bit_lsb0": 0,
+      "start_s": 55.6343,
+      "end_s": 256.3332,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x22A",
+      "byte": 2,
+      "bit_lsb0": 2,
+      "start_s": 53.6658,
+      "end_s": 256.8677,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x204",
+      "byte": 0,
+      "bit_lsb0": 2,
+      "start_s": 53.9715,
+      "end_s": 256.7604,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x204",
+      "byte": 0,
+      "bit_lsb0": 5,
+      "start_s": 55.5715,
+      "end_s": 256.7604,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x204",
+      "byte": 1,
+      "bit_lsb0": 0,
+      "start_s": 68.0705,
+      "end_s": 256.16,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x204",
+      "byte": 1,
+      "bit_lsb0": 1,
+      "start_s": 55.7712,
+      "end_s": 256.16,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x204",
+      "byte": 2,
+      "bit_lsb0": 6,
+      "start_s": 75.3703,
+      "end_s": 256.16,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x204",
+      "byte": 5,
+      "bit_lsb0": 7,
+      "start_s": 66.9706,
+      "end_s": 256.16,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x204",
+      "byte": 7,
+      "bit_lsb0": 0,
+      "start_s": 53.6716,
+      "end_s": 257.0602,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x264",
+      "byte": 1,
+      "bit_lsb0": 4,
+      "start_s": 53.8718,
+      "end_s": 257.1604,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x264",
+      "byte": 2,
+      "bit_lsb0": 7,
+      "start_s": 55.3717,
+      "end_s": 257.3605,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x24A",
+      "byte": 0,
+      "bit_lsb0": 1,
+      "start_s": 56.5005,
+      "end_s": 257.5023,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x232",
+      "byte": 0,
+      "bit_lsb0": 6,
+      "start_s": 54.5568,
+      "end_s": 256.5614,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x232",
+      "byte": 1,
+      "bit_lsb0": 1,
+      "start_s": 54.5568,
+      "end_s": 257.5611,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x364",
+      "byte": 1,
+      "bit_lsb0": 1,
+      "start_s": 56.673,
+      "end_s": 258.6625,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x364",
+      "byte": 1,
+      "bit_lsb0": 3,
+      "start_s": 56.673,
+      "end_s": 258.6625,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x364",
+      "byte": 1,
+      "bit_lsb0": 4,
+      "start_s": 56.673,
+      "end_s": 258.6625,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x364",
+      "byte": 1,
+      "bit_lsb0": 5,
+      "start_s": 56.673,
+      "end_s": 258.6625,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x364",
+      "byte": 1,
+      "bit_lsb0": 6,
+      "start_s": 56.673,
+      "end_s": 258.6625,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x364",
+      "byte": 1,
+      "bit_lsb0": 7,
+      "start_s": 56.673,
+      "end_s": 258.6625,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x472",
+      "byte": 4,
+      "bit_lsb0": 4,
+      "start_s": 55.89,
+      "end_s": 256.8943,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x20A",
+      "byte": 5,
+      "bit_lsb0": 4,
+      "start_s": 53.8954,
+      "end_s": 256.8973,
+      "active_value": 1
+    }
+  ],
+  "charge_pair_clusters": [
+    {
+      "cluster_id": 1,
+      "bit_count": 23,
+      "can_id_count": 5,
+      "can_ids": {
+        "0x212": 6,
+        "0x21D": 3,
+        "0x252": 4,
+        "0x2D2": 9,
+        "0x43D": 1
+      },
+      "start_min_s": 53.5226,
+      "start_max_s": 53.8337,
+      "start_mean_s": 53.71023913043477,
+      "end_min_s": 256.1366,
+      "end_max_s": 256.2344,
+      "end_mean_s": 256.2171913043478,
+      "members": [
+        {
+          "can_id": "0x21D",
+          "byte": 1,
+          "bit_lsb0": 6,
+          "start_s": 53.5226,
+          "end_s": 256.1366,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x43D",
+          "byte": 1,
+          "bit_lsb0": 6,
+          "start_s": 53.5244,
+          "end_s": 256.1378,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x21D",
+          "byte": 0,
+          "bit_lsb0": 5,
+          "start_s": 53.6234,
+          "end_s": 256.1366,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x21D",
+          "byte": 6,
+          "bit_lsb0": 5,
+          "start_s": 53.6234,
+          "end_s": 256.1366,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x2D2",
+          "byte": 4,
+          "bit_lsb0": 6,
+          "start_s": 53.7336,
+          "end_s": 256.2344,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x2D2",
+          "byte": 5,
+          "bit_lsb0": 1,
+          "start_s": 53.7336,
+          "end_s": 256.2344,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x2D2",
+          "byte": 5,
+          "bit_lsb0": 2,
+          "start_s": 53.7336,
+          "end_s": 256.2344,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x2D2",
+          "byte": 6,
+          "bit_lsb0": 1,
+          "start_s": 53.7336,
+          "end_s": 256.2344,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x2D2",
+          "byte": 6,
+          "bit_lsb0": 2,
+          "start_s": 53.7336,
+          "end_s": 256.2344,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x2D2",
+          "byte": 6,
+          "bit_lsb0": 3,
+          "start_s": 53.7336,
+          "end_s": 256.2344,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x2D2",
+          "byte": 6,
+          "bit_lsb0": 6,
+          "start_s": 53.7336,
+          "end_s": 256.2344,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x2D2",
+          "byte": 6,
+          "bit_lsb0": 7,
+          "start_s": 53.7336,
+          "end_s": 256.2344,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x212",
+          "byte": 0,
+          "bit_lsb0": 0,
+          "start_s": 53.7338,
+          "end_s": 256.2337,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x212",
+          "byte": 1,
+          "bit_lsb0": 4,
+          "start_s": 53.7338,
+          "end_s": 256.2337,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x212",
+          "byte": 3,
+          "bit_lsb0": 6,
+          "start_s": 53.7338,
+          "end_s": 256.2337,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x212",
+          "byte": 4,
+          "bit_lsb0": 0,
+          "start_s": 53.7338,
+          "end_s": 256.2337,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x212",
+          "byte": 7,
+          "bit_lsb0": 0,
+          "start_s": 53.7338,
+          "end_s": 256.2337,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x212",
+          "byte": 7,
+          "bit_lsb0": 5,
+          "start_s": 53.7338,
+          "end_s": 256.2337,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x252",
+          "byte": 0,
+          "bit_lsb0": 7,
+          "start_s": 53.7341,
+          "end_s": 256.234,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x252",
+          "byte": 1,
+          "bit_lsb0": 1,
+          "start_s": 53.7341,
+          "end_s": 256.234,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x252",
+          "byte": 1,
+          "bit_lsb0": 2,
+          "start_s": 53.7341,
+          "end_s": 256.234,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x252",
+          "byte": 1,
+          "bit_lsb0": 4,
+          "start_s": 53.7341,
+          "end_s": 256.234,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x2D2",
+          "byte": 2,
+          "bit_lsb0": 2,
+          "start_s": 53.8337,
+          "end_s": 256.2344,
+          "active_value": 1
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "bit_count": 7,
+      "can_id_count": 5,
+      "can_ids": {
+        "0x204": 2,
+        "0x20A": 1,
+        "0x21D": 2,
+        "0x22A": 1,
+        "0x43D": 1
+      },
+      "start_min_s": 53.6658,
+      "start_max_s": 53.9715,
+      "start_mean_s": 53.76771428571429,
+      "end_min_s": 256.7604,
+      "end_max_s": 257.0602,
+      "end_mean_s": 256.8709857142857,
+      "members": [
+        {
+          "can_id": "0x22A",
+          "byte": 2,
+          "bit_lsb0": 2,
+          "start_s": 53.6658,
+          "end_s": 256.8677,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x204",
+          "byte": 7,
+          "bit_lsb0": 0,
+          "start_s": 53.6716,
+          "end_s": 257.0602,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x21D",
+          "byte": 0,
+          "bit_lsb0": 0,
+          "start_s": 53.723,
+          "end_s": 256.8368,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x21D",
+          "byte": 0,
+          "bit_lsb0": 1,
+          "start_s": 53.723,
+          "end_s": 256.8368,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x43D",
+          "byte": 0,
+          "bit_lsb0": 2,
+          "start_s": 53.7237,
+          "end_s": 256.8377,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x20A",
+          "byte": 5,
+          "bit_lsb0": 4,
+          "start_s": 53.8954,
+          "end_s": 256.8973,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x204",
+          "byte": 0,
+          "bit_lsb0": 2,
+          "start_s": 53.9715,
+          "end_s": 256.7604,
+          "active_value": 1
+        }
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "bit_count": 1,
+      "can_id_count": 1,
+      "can_ids": {
+        "0x264": 1
+      },
+      "start_min_s": 53.8718,
+      "start_max_s": 53.8718,
+      "start_mean_s": 53.8718,
+      "end_min_s": 257.1604,
+      "end_max_s": 257.1604,
+      "end_mean_s": 257.1604,
+      "members": [
+        {
+          "can_id": "0x264",
+          "byte": 1,
+          "bit_lsb0": 4,
+          "start_s": 53.8718,
+          "end_s": 257.1604,
+          "active_value": 1
+        }
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "bit_count": 2,
+      "can_id_count": 1,
+      "can_ids": {
+        "0x252": 2
+      },
+      "start_min_s": 54.035,
+      "start_max_s": 54.035,
+      "start_mean_s": 54.035,
+      "end_min_s": 256.3332,
+      "end_max_s": 256.3332,
+      "end_mean_s": 256.3332,
+      "members": [
+        {
+          "can_id": "0x252",
+          "byte": 3,
+          "bit_lsb0": 0,
+          "start_s": 54.035,
+          "end_s": 256.3332,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x252",
+          "byte": 3,
+          "bit_lsb0": 1,
+          "start_s": 54.035,
+          "end_s": 256.3332,
+          "active_value": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "bit_count": 1,
+      "can_id_count": 1,
+      "can_ids": {
+        "0x232": 1
+      },
+      "start_min_s": 54.5568,
+      "start_max_s": 54.5568,
+      "start_mean_s": 54.5568,
+      "end_min_s": 256.5614,
+      "end_max_s": 256.5614,
+      "end_mean_s": 256.5614,
+      "members": [
+        {
+          "can_id": "0x232",
+          "byte": 0,
+          "bit_lsb0": 6,
+          "start_s": 54.5568,
+          "end_s": 256.5614,
+          "active_value": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "bit_count": 1,
+      "can_id_count": 1,
+      "can_ids": {
+        "0x232": 1
+      },
+      "start_min_s": 54.5568,
+      "start_max_s": 54.5568,
+      "start_mean_s": 54.5568,
+      "end_min_s": 257.5611,
+      "end_max_s": 257.5611,
+      "end_mean_s": 257.5611,
+      "members": [
+        {
+          "can_id": "0x232",
+          "byte": 1,
+          "bit_lsb0": 1,
+          "start_s": 54.5568,
+          "end_s": 257.5611,
+          "active_value": 1
+        }
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "bit_count": 1,
+      "can_id_count": 1,
+      "can_ids": {
+        "0x264": 1
+      },
+      "start_min_s": 55.3717,
+      "start_max_s": 55.3717,
+      "start_mean_s": 55.3717,
+      "end_min_s": 257.3605,
+      "end_max_s": 257.3605,
+      "end_mean_s": 257.3605,
+      "members": [
+        {
+          "can_id": "0x264",
+          "byte": 2,
+          "bit_lsb0": 7,
+          "start_s": 55.3717,
+          "end_s": 257.3605,
+          "active_value": 1
+        }
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "bit_count": 2,
+      "can_id_count": 2,
+      "can_ids": {
+        "0x204": 1,
+        "0x25D": 1
+      },
+      "start_min_s": 55.5715,
+      "start_max_s": 55.6244,
+      "start_mean_s": 55.59795,
+      "end_min_s": 256.7604,
+      "end_max_s": 256.8381,
+      "end_mean_s": 256.79925000000003,
+      "members": [
+        {
+          "can_id": "0x204",
+          "byte": 0,
+          "bit_lsb0": 5,
+          "start_s": 55.5715,
+          "end_s": 256.7604,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x25D",
+          "byte": 0,
+          "bit_lsb0": 2,
+          "start_s": 55.6244,
+          "end_s": 256.8381,
+          "active_value": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "bit_count": 14,
+      "can_id_count": 4,
+      "can_ids": {
+        "0x204": 1,
+        "0x212": 6,
+        "0x252": 6,
+        "0x2D2": 1
+      },
+      "start_min_s": 55.6341,
+      "start_max_s": 55.7712,
+      "start_mean_s": 55.65832857142857,
+      "end_min_s": 256.16,
+      "end_max_s": 256.3332,
+      "end_mean_s": 256.27112857142856,
+      "members": [
+        {
+          "can_id": "0x212",
+          "byte": 5,
+          "bit_lsb0": 5,
+          "start_s": 55.6341,
+          "end_s": 256.2337,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x212",
+          "byte": 5,
+          "bit_lsb0": 6,
+          "start_s": 55.6341,
+          "end_s": 256.2337,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x212",
+          "byte": 5,
+          "bit_lsb0": 7,
+          "start_s": 55.6341,
+          "end_s": 256.2337,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x212",
+          "byte": 6,
+          "bit_lsb0": 0,
+          "start_s": 55.6341,
+          "end_s": 256.2337,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x212",
+          "byte": 6,
+          "bit_lsb0": 1,
+          "start_s": 55.6341,
+          "end_s": 256.2337,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x212",
+          "byte": 6,
+          "bit_lsb0": 2,
+          "start_s": 55.6341,
+          "end_s": 256.2337,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x252",
+          "byte": 4,
+          "bit_lsb0": 4,
+          "start_s": 55.6343,
+          "end_s": 256.3332,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x252",
+          "byte": 4,
+          "bit_lsb0": 5,
+          "start_s": 55.6343,
+          "end_s": 256.3332,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x252",
+          "byte": 4,
+          "bit_lsb0": 6,
+          "start_s": 55.6343,
+          "end_s": 256.3332,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x252",
+          "byte": 5,
+          "bit_lsb0": 0,
+          "start_s": 55.6343,
+          "end_s": 256.3332,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x2D2",
+          "byte": 2,
+          "bit_lsb0": 3,
+          "start_s": 55.635,
+          "end_s": 256.2344,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x252",
+          "byte": 4,
+          "bit_lsb0": 2,
+          "start_s": 55.7343,
+          "end_s": 256.3332,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x252",
+          "byte": 4,
+          "bit_lsb0": 7,
+          "start_s": 55.7343,
+          "end_s": 256.3332,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x204",
+          "byte": 1,
+          "bit_lsb0": 1,
+          "start_s": 55.7712,
+          "end_s": 256.16,
+          "active_value": 1
+        }
+      ]
+    },
+    {
+      "cluster_id": 10,
+      "bit_count": 1,
+      "can_id_count": 1,
+      "can_ids": {
+        "0x472": 1
+      },
+      "start_min_s": 55.89,
+      "start_max_s": 55.89,
+      "start_mean_s": 55.89,
+      "end_min_s": 256.8943,
+      "end_max_s": 256.8943,
+      "end_mean_s": 256.8943,
+      "members": [
+        {
+          "can_id": "0x472",
+          "byte": 4,
+          "bit_lsb0": 4,
+          "start_s": 55.89,
+          "end_s": 256.8943,
+          "active_value": 1
+        }
+      ]
+    },
+    {
+      "cluster_id": 11,
+      "bit_count": 1,
+      "can_id_count": 1,
+      "can_ids": {
+        "0x24A": 1
+      },
+      "start_min_s": 56.5005,
+      "start_max_s": 56.5005,
+      "start_mean_s": 56.5005,
+      "end_min_s": 257.5023,
+      "end_max_s": 257.5023,
+      "end_mean_s": 257.5023,
+      "members": [
+        {
+          "can_id": "0x24A",
+          "byte": 0,
+          "bit_lsb0": 1,
+          "start_s": 56.5005,
+          "end_s": 257.5023,
+          "active_value": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": 12,
+      "bit_count": 6,
+      "can_id_count": 1,
+      "can_ids": {
+        "0x364": 6
+      },
+      "start_min_s": 56.673,
+      "start_max_s": 56.673,
+      "start_mean_s": 56.673,
+      "end_min_s": 258.6625,
+      "end_max_s": 258.6625,
+      "end_mean_s": 258.66249999999997,
+      "members": [
+        {
+          "can_id": "0x364",
+          "byte": 1,
+          "bit_lsb0": 1,
+          "start_s": 56.673,
+          "end_s": 258.6625,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x364",
+          "byte": 1,
+          "bit_lsb0": 3,
+          "start_s": 56.673,
+          "end_s": 258.6625,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x364",
+          "byte": 1,
+          "bit_lsb0": 4,
+          "start_s": 56.673,
+          "end_s": 258.6625,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x364",
+          "byte": 1,
+          "bit_lsb0": 5,
+          "start_s": 56.673,
+          "end_s": 258.6625,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x364",
+          "byte": 1,
+          "bit_lsb0": 6,
+          "start_s": 56.673,
+          "end_s": 258.6625,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x364",
+          "byte": 1,
+          "bit_lsb0": 7,
+          "start_s": 56.673,
+          "end_s": 258.6625,
+          "active_value": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": 13,
+      "bit_count": 8,
+      "can_id_count": 1,
+      "can_ids": {
+        "0x132": 8
+      },
+      "start_min_s": 63.497,
+      "start_max_s": 63.497,
+      "start_mean_s": 63.49700000000001,
+      "end_min_s": 256.1309,
+      "end_max_s": 256.1309,
+      "end_mean_s": 256.13090000000005,
+      "members": [
+        {
+          "can_id": "0x132",
+          "byte": 3,
+          "bit_lsb0": 0,
+          "start_s": 63.497,
+          "end_s": 256.1309,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x132",
+          "byte": 3,
+          "bit_lsb0": 1,
+          "start_s": 63.497,
+          "end_s": 256.1309,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x132",
+          "byte": 3,
+          "bit_lsb0": 2,
+          "start_s": 63.497,
+          "end_s": 256.1309,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x132",
+          "byte": 3,
+          "bit_lsb0": 3,
+          "start_s": 63.497,
+          "end_s": 256.1309,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x132",
+          "byte": 3,
+          "bit_lsb0": 4,
+          "start_s": 63.497,
+          "end_s": 256.1309,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x132",
+          "byte": 3,
+          "bit_lsb0": 5,
+          "start_s": 63.497,
+          "end_s": 256.1309,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x132",
+          "byte": 3,
+          "bit_lsb0": 6,
+          "start_s": 63.497,
+          "end_s": 256.1309,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x132",
+          "byte": 3,
+          "bit_lsb0": 7,
+          "start_s": 63.497,
+          "end_s": 256.1309,
+          "active_value": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": 14,
+      "bit_count": 1,
+      "can_id_count": 1,
+      "can_ids": {
+        "0x204": 1
+      },
+      "start_min_s": 66.9706,
+      "start_max_s": 66.9706,
+      "start_mean_s": 66.9706,
+      "end_min_s": 256.16,
+      "end_max_s": 256.16,
+      "end_mean_s": 256.16,
+      "members": [
+        {
+          "can_id": "0x204",
+          "byte": 5,
+          "bit_lsb0": 7,
+          "start_s": 66.9706,
+          "end_s": 256.16,
+          "active_value": 1
+        }
+      ]
+    },
+    {
+      "cluster_id": 15,
+      "bit_count": 1,
+      "can_id_count": 1,
+      "can_ids": {
+        "0x204": 1
+      },
+      "start_min_s": 68.0705,
+      "start_max_s": 68.0705,
+      "start_mean_s": 68.0705,
+      "end_min_s": 256.16,
+      "end_max_s": 256.16,
+      "end_mean_s": 256.16,
+      "members": [
+        {
+          "can_id": "0x204",
+          "byte": 1,
+          "bit_lsb0": 0,
+          "start_s": 68.0705,
+          "end_s": 256.16,
+          "active_value": 1
+        }
+      ]
+    },
+    {
+      "cluster_id": 16,
+      "bit_count": 1,
+      "can_id_count": 1,
+      "can_ids": {
+        "0x204": 1
+      },
+      "start_min_s": 75.3703,
+      "start_max_s": 75.3703,
+      "start_mean_s": 75.3703,
+      "end_min_s": 256.16,
+      "end_max_s": 256.16,
+      "end_mean_s": 256.16,
+      "members": [
+        {
+          "can_id": "0x204",
+          "byte": 2,
+          "bit_lsb0": 6,
+          "start_s": 75.3703,
+          "end_s": 256.16,
+          "active_value": 1
+        }
+      ]
+    }
+  ],
+  "plug_pairs": [
+    {
+      "can_id": "0x2EC",
+      "byte": 0,
+      "bit_lsb0": 3,
+      "start_s": 15.4156,
+      "end_s": 360.9415,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x2EC",
+      "byte": 0,
+      "bit_lsb0": 6,
+      "start_s": 15.4156,
+      "end_s": 360.9415,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x2EC",
+      "byte": 2,
+      "bit_lsb0": 3,
+      "start_s": 15.4156,
+      "end_s": 360.9415,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x21D",
+      "byte": 0,
+      "bit_lsb0": 3,
+      "start_s": 14.621,
+      "end_s": 360.4438,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x21D",
+      "byte": 2,
+      "bit_lsb0": 0,
+      "start_s": 14.621,
+      "end_s": 360.4438,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x21D",
+      "byte": 2,
+      "bit_lsb0": 1,
+      "start_s": 14.621,
+      "end_s": 360.4438,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x21D",
+      "byte": 2,
+      "bit_lsb0": 2,
+      "start_s": 14.621,
+      "end_s": 360.4438,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x21D",
+      "byte": 3,
+      "bit_lsb0": 5,
+      "start_s": 14.7205,
+      "end_s": 360.0444,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x25D",
+      "byte": 0,
+      "bit_lsb0": 6,
+      "start_s": 11.22,
+      "end_s": 365.7452,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x25D",
+      "byte": 1,
+      "bit_lsb0": 6,
+      "start_s": 15.0208,
+      "end_s": 360.8449,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x25D",
+      "byte": 1,
+      "bit_lsb0": 7,
+      "start_s": 15.0208,
+      "end_s": 360.8449,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x25D",
+      "byte": 3,
+      "bit_lsb0": 7,
+      "start_s": 11.22,
+      "end_s": 363.9451,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x43D",
+      "byte": 5,
+      "bit_lsb0": 5,
+      "start_s": 11.2198,
+      "end_s": 365.7471,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x228",
+      "byte": 3,
+      "bit_lsb0": 0,
+      "start_s": 15.3273,
+      "end_s": 360.8534,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x228",
+      "byte": 3,
+      "bit_lsb0": 1,
+      "start_s": 15.3273,
+      "end_s": 360.8534,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x228",
+      "byte": 5,
+      "bit_lsb0": 7,
+      "start_s": 15.3273,
+      "end_s": 360.8534,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x228",
+      "byte": 7,
+      "bit_lsb0": 0,
+      "start_s": 15.3273,
+      "end_s": 360.8534,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x228",
+      "byte": 7,
+      "bit_lsb0": 1,
+      "start_s": 15.3273,
+      "end_s": 360.8534,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x2E8",
+      "byte": 5,
+      "bit_lsb0": 7,
+      "start_s": 15.3395,
+      "end_s": 360.8656,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x2AA",
+      "byte": 0,
+      "bit_lsb0": 3,
+      "start_s": 15.3704,
+      "end_s": 360.8979,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x2AA",
+      "byte": 0,
+      "bit_lsb0": 6,
+      "start_s": 15.3704,
+      "end_s": 360.8979,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x2AA",
+      "byte": 2,
+      "bit_lsb0": 3,
+      "start_s": 15.3704,
+      "end_s": 360.8979,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x288",
+      "byte": 3,
+      "bit_lsb0": 0,
+      "start_s": 15.3827,
+      "end_s": 360.9112,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x288",
+      "byte": 3,
+      "bit_lsb0": 1,
+      "start_s": 15.3827,
+      "end_s": 360.9112,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x288",
+      "byte": 5,
+      "bit_lsb0": 7,
+      "start_s": 15.3827,
+      "end_s": 360.9112,
+      "active_value": 0
+    },
+    {
+      "can_id": "0x288",
+      "byte": 7,
+      "bit_lsb0": 0,
+      "start_s": 15.3827,
+      "end_s": 360.9112,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x288",
+      "byte": 7,
+      "bit_lsb0": 1,
+      "start_s": 15.3827,
+      "end_s": 360.9112,
+      "active_value": 1
+    },
+    {
+      "can_id": "0x2A8",
+      "byte": 5,
+      "bit_lsb0": 7,
+      "start_s": 15.3945,
+      "end_s": 360.9225,
+      "active_value": 1
+    }
+  ],
+  "plug_pair_clusters": [
+    {
+      "cluster_id": 1,
+      "bit_count": 2,
+      "can_id_count": 2,
+      "can_ids": {
+        "0x25D": 1,
+        "0x43D": 1
+      },
+      "start_min_s": 11.2198,
+      "start_max_s": 11.22,
+      "start_mean_s": 11.219899999999999,
+      "end_min_s": 365.7452,
+      "end_max_s": 365.7471,
+      "end_mean_s": 365.74615,
+      "members": [
+        {
+          "can_id": "0x43D",
+          "byte": 5,
+          "bit_lsb0": 5,
+          "start_s": 11.2198,
+          "end_s": 365.7471,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x25D",
+          "byte": 0,
+          "bit_lsb0": 6,
+          "start_s": 11.22,
+          "end_s": 365.7452,
+          "active_value": 1
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "bit_count": 1,
+      "can_id_count": 1,
+      "can_ids": {
+        "0x25D": 1
+      },
+      "start_min_s": 11.22,
+      "start_max_s": 11.22,
+      "start_mean_s": 11.22,
+      "end_min_s": 363.9451,
+      "end_max_s": 363.9451,
+      "end_mean_s": 363.9451,
+      "members": [
+        {
+          "can_id": "0x25D",
+          "byte": 3,
+          "bit_lsb0": 7,
+          "start_s": 11.22,
+          "end_s": 363.9451,
+          "active_value": 1
+        }
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "bit_count": 4,
+      "can_id_count": 1,
+      "can_ids": {
+        "0x21D": 4
+      },
+      "start_min_s": 14.621,
+      "start_max_s": 14.621,
+      "start_mean_s": 14.621,
+      "end_min_s": 360.4438,
+      "end_max_s": 360.4438,
+      "end_mean_s": 360.4438,
+      "members": [
+        {
+          "can_id": "0x21D",
+          "byte": 0,
+          "bit_lsb0": 3,
+          "start_s": 14.621,
+          "end_s": 360.4438,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x21D",
+          "byte": 2,
+          "bit_lsb0": 0,
+          "start_s": 14.621,
+          "end_s": 360.4438,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x21D",
+          "byte": 2,
+          "bit_lsb0": 1,
+          "start_s": 14.621,
+          "end_s": 360.4438,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x21D",
+          "byte": 2,
+          "bit_lsb0": 2,
+          "start_s": 14.621,
+          "end_s": 360.4438,
+          "active_value": 0
+        }
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "bit_count": 1,
+      "can_id_count": 1,
+      "can_ids": {
+        "0x21D": 1
+      },
+      "start_min_s": 14.7205,
+      "start_max_s": 14.7205,
+      "start_mean_s": 14.7205,
+      "end_min_s": 360.0444,
+      "end_max_s": 360.0444,
+      "end_mean_s": 360.0444,
+      "members": [
+        {
+          "can_id": "0x21D",
+          "byte": 3,
+          "bit_lsb0": 5,
+          "start_s": 14.7205,
+          "end_s": 360.0444,
+          "active_value": 1
+        }
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "bit_count": 2,
+      "can_id_count": 1,
+      "can_ids": {
+        "0x25D": 2
+      },
+      "start_min_s": 15.0208,
+      "start_max_s": 15.0208,
+      "start_mean_s": 15.0208,
+      "end_min_s": 360.8449,
+      "end_max_s": 360.8449,
+      "end_mean_s": 360.8449,
+      "members": [
+        {
+          "can_id": "0x25D",
+          "byte": 1,
+          "bit_lsb0": 6,
+          "start_s": 15.0208,
+          "end_s": 360.8449,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x25D",
+          "byte": 1,
+          "bit_lsb0": 7,
+          "start_s": 15.0208,
+          "end_s": 360.8449,
+          "active_value": 1
+        }
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "bit_count": 18,
+      "can_id_count": 6,
+      "can_ids": {
+        "0x228": 5,
+        "0x288": 5,
+        "0x2A8": 1,
+        "0x2AA": 3,
+        "0x2E8": 1,
+        "0x2EC": 3
+      },
+      "start_min_s": 15.3273,
+      "start_max_s": 15.4156,
+      "start_mean_s": 15.369,
+      "end_min_s": 360.8534,
+      "end_max_s": 360.9415,
+      "end_mean_s": 360.89607222222224,
+      "members": [
+        {
+          "can_id": "0x228",
+          "byte": 3,
+          "bit_lsb0": 0,
+          "start_s": 15.3273,
+          "end_s": 360.8534,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x228",
+          "byte": 3,
+          "bit_lsb0": 1,
+          "start_s": 15.3273,
+          "end_s": 360.8534,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x228",
+          "byte": 5,
+          "bit_lsb0": 7,
+          "start_s": 15.3273,
+          "end_s": 360.8534,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x228",
+          "byte": 7,
+          "bit_lsb0": 0,
+          "start_s": 15.3273,
+          "end_s": 360.8534,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x228",
+          "byte": 7,
+          "bit_lsb0": 1,
+          "start_s": 15.3273,
+          "end_s": 360.8534,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x2E8",
+          "byte": 5,
+          "bit_lsb0": 7,
+          "start_s": 15.3395,
+          "end_s": 360.8656,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x2AA",
+          "byte": 0,
+          "bit_lsb0": 3,
+          "start_s": 15.3704,
+          "end_s": 360.8979,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x2AA",
+          "byte": 0,
+          "bit_lsb0": 6,
+          "start_s": 15.3704,
+          "end_s": 360.8979,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x2AA",
+          "byte": 2,
+          "bit_lsb0": 3,
+          "start_s": 15.3704,
+          "end_s": 360.8979,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x288",
+          "byte": 3,
+          "bit_lsb0": 0,
+          "start_s": 15.3827,
+          "end_s": 360.9112,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x288",
+          "byte": 3,
+          "bit_lsb0": 1,
+          "start_s": 15.3827,
+          "end_s": 360.9112,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x288",
+          "byte": 5,
+          "bit_lsb0": 7,
+          "start_s": 15.3827,
+          "end_s": 360.9112,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x288",
+          "byte": 7,
+          "bit_lsb0": 0,
+          "start_s": 15.3827,
+          "end_s": 360.9112,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x288",
+          "byte": 7,
+          "bit_lsb0": 1,
+          "start_s": 15.3827,
+          "end_s": 360.9112,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x2A8",
+          "byte": 5,
+          "bit_lsb0": 7,
+          "start_s": 15.3945,
+          "end_s": 360.9225,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x2EC",
+          "byte": 0,
+          "bit_lsb0": 3,
+          "start_s": 15.4156,
+          "end_s": 360.9415,
+          "active_value": 0
+        },
+        {
+          "can_id": "0x2EC",
+          "byte": 0,
+          "bit_lsb0": 6,
+          "start_s": 15.4156,
+          "end_s": 360.9415,
+          "active_value": 1
+        },
+        {
+          "can_id": "0x2EC",
+          "byte": 2,
+          "bit_lsb0": 3,
+          "start_s": 15.4156,
+          "end_s": 360.9415,
+          "active_value": 0
+        }
+      ]
+    }
+  ]
+}

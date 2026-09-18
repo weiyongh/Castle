@@ -1,0 +1,7654 @@
+{
+  "asc_start_clock": "2026-09-17T13:24:06.000+08:00",
+  "events": [
+    {
+      "event_id": "E01",
+      "action": "开始采集",
+      "offset_s": -17.783
+    },
+    {
+      "event_id": "E02",
+      "action": "新建与 CAN 同名的现场记录",
+      "offset_s": -2.78
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241
+    },
+    {
+      "event_id": "E07",
+      "action": "拍摄停止状态",
+      "offset_s": 327.251
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244
+    },
+    {
+      "event_id": "E10",
+      "action": "保存现场记录，与 CAN 一起交付",
+      "offset_s": 402.159
+    },
+    {
+      "event_id": "E11",
+      "action": "停止采集",
+      "offset_s": 417.26
+    }
+  ],
+  "frame_count": 915670,
+  "can_id_count": 279,
+  "inventory": [
+    {
+      "can_id": "0x04F",
+      "frames": 406,
+      "first_s": 0.1211,
+      "last_s": 404.9525,
+      "duration_s": 404.8314,
+      "mean_hz": 1.0028866337937226,
+      "dlc_counts": {
+        "8": 406
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x082",
+      "frames": 406,
+      "first_s": 0.0226,
+      "last_s": 404.8534,
+      "duration_s": 404.8308,
+      "mean_hz": 1.0028881201726745,
+      "dlc_counts": {
+        "8": 406
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x102",
+      "frames": 4050,
+      "first_s": 0.0093,
+      "last_s": 404.9368,
+      "duration_s": 404.9275,
+      "mean_hz": 10.001790443968364,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x103",
+      "frames": 4050,
+      "first_s": 0.0015,
+      "last_s": 404.9289,
+      "duration_s": 404.9274,
+      "mean_hz": 10.001792913989027,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x113",
+      "frames": 4050,
+      "first_s": 0.0137,
+      "last_s": 404.9429,
+      "duration_s": 404.92920000000004,
+      "mean_hz": 10.001748453803776,
+      "dlc_counts": {
+        "3": 4050
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x119",
+      "frames": 4050,
+      "first_s": 0.0045,
+      "last_s": 404.9318,
+      "duration_s": 404.9273,
+      "mean_hz": 10.001795384010908,
+      "dlc_counts": {
+        "4": 4050
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x122",
+      "frames": 4050,
+      "first_s": 0.0163,
+      "last_s": 404.943,
+      "duration_s": 404.9267,
+      "mean_hz": 10.001810204167816,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x123",
+      "frames": 4050,
+      "first_s": 0.0075,
+      "last_s": 404.9349,
+      "duration_s": 404.92740000000003,
+      "mean_hz": 10.001792913989025,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x129",
+      "frames": 40496,
+      "first_s": 0.0055,
+      "last_s": 404.9668,
+      "duration_s": 404.9613,
+      "mean_hz": 99.9996789816706,
+      "dlc_counts": {
+        "8": 40496
+      },
+      "unique_payloads": 86
+    },
+    {
+      "can_id": "0x132",
+      "frames": 40496,
+      "first_s": 0.0057,
+      "last_s": 404.9635,
+      "duration_s": 404.9578,
+      "mean_hz": 100.00054326648356,
+      "dlc_counts": {
+        "6": 40496
+      },
+      "unique_payloads": 6953
+    },
+    {
+      "can_id": "0x139",
+      "frames": 4050,
+      "first_s": 0.0345,
+      "last_s": 404.9618,
+      "duration_s": 404.9273,
+      "mean_hz": 10.001795384010908,
+      "dlc_counts": {
+        "1": 4050
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x142",
+      "frames": 8099,
+      "first_s": 0.0063,
+      "last_s": 404.9333,
+      "duration_s": 404.92699999999996,
+      "mean_hz": 20.001136007230933,
+      "dlc_counts": {
+        "8": 8099
+      },
+      "unique_payloads": 3
+    },
+    {
+      "can_id": "0x1BB",
+      "frames": 812,
+      "first_s": 0.32,
+      "last_s": 404.652,
+      "duration_s": 404.332,
+      "mean_hz": 2.0082506455091362,
+      "dlc_counts": {
+        "1": 812
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x1DA",
+      "frames": 158,
+      "first_s": 376.4595,
+      "last_s": 376.8829,
+      "duration_s": 0.4234000000000151,
+      "mean_hz": 373.16957959375145,
+      "dlc_counts": {
+        "2": 4,
+        "3": 8,
+        "4": 2,
+        "8": 144
+      },
+      "unique_payloads": 149
+    },
+    {
+      "can_id": "0x1F8",
+      "frames": 4050,
+      "first_s": 0.0372,
+      "last_s": 404.9639,
+      "duration_s": 404.92670000000004,
+      "mean_hz": 10.001810204167816,
+      "dlc_counts": {
+        "4": 4050
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x1F9",
+      "frames": 4049,
+      "first_s": 0.0975,
+      "last_s": 404.9248,
+      "duration_s": 404.8273,
+      "mean_hz": 10.001795827504717,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x1FA",
+      "frames": 4049,
+      "first_s": 0.0882,
+      "last_s": 404.9151,
+      "duration_s": 404.8269,
+      "mean_hz": 10.001805710045453,
+      "dlc_counts": {
+        "3": 4049
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x1FB",
+      "frames": 81,
+      "first_s": 3.2817,
+      "last_s": 403.3081,
+      "duration_s": 400.0264,
+      "mean_hz": 0.20248663588203178,
+      "dlc_counts": {
+        "8": 81
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x201",
+      "frames": 16198,
+      "first_s": 0.0085,
+      "last_s": 404.9575,
+      "duration_s": 404.94899999999996,
+      "mean_hz": 40.0000987778708,
+      "dlc_counts": {
+        "8": 16198
+      },
+      "unique_payloads": 140
+    },
+    {
+      "can_id": "0x204",
+      "frames": 4050,
+      "first_s": 0.0748,
+      "last_s": 404.9517,
+      "duration_s": 404.87690000000003,
+      "mean_hz": 10.00304043031351,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 137
+    },
+    {
+      "can_id": "0x20A",
+      "frames": 405,
+      "first_s": 0.8949,
+      "last_s": 404.8987,
+      "duration_s": 404.0038,
+      "mean_hz": 1.002465818390817,
+      "dlc_counts": {
+        "6": 405
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x20C",
+      "frames": 4050,
+      "first_s": 0.0257,
+      "last_s": 404.953,
+      "duration_s": 404.9273,
+      "mean_hz": 10.001795384010908,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 3
+    },
+    {
+      "can_id": "0x20E",
+      "frames": 4049,
+      "first_s": 0.0929,
+      "last_s": 404.9106,
+      "duration_s": 404.8177,
+      "mean_hz": 10.002033013872664,
+      "dlc_counts": {
+        "3": 4049
+      },
+      "unique_payloads": 8
+    },
+    {
+      "can_id": "0x212",
+      "frames": 4050,
+      "first_s": 0.033,
+      "last_s": 404.9422,
+      "duration_s": 404.9092,
+      "mean_hz": 10.002242478066687,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 155
+    },
+    {
+      "can_id": "0x213",
+      "frames": 811,
+      "first_s": 0.0203,
+      "last_s": 404.8532,
+      "duration_s": 404.8329,
+      "mean_hz": 2.003295680761124,
+      "dlc_counts": {
+        "2": 811
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x219",
+      "frames": 4049,
+      "first_s": 0.0697,
+      "last_s": 404.8968,
+      "duration_s": 404.8271,
+      "mean_hz": 10.001800768772645,
+      "dlc_counts": {
+        "7": 4049
+      },
+      "unique_payloads": 6
+    },
+    {
+      "can_id": "0x21D",
+      "frames": 4050,
+      "first_s": 0.0192,
+      "last_s": 404.9476,
+      "duration_s": 404.9284,
+      "mean_hz": 10.00176821383731,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 13
+    },
+    {
+      "can_id": "0x221",
+      "frames": 8098,
+      "first_s": 0.0496,
+      "last_s": 404.9231,
+      "duration_s": 404.8735,
+      "mean_hz": 20.001309050851688,
+      "dlc_counts": {
+        "8": 8098
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x224",
+      "frames": 4050,
+      "first_s": 0.0762,
+      "last_s": 404.9521,
+      "duration_s": 404.8759,
+      "mean_hz": 10.00306513674931,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x225",
+      "frames": 4049,
+      "first_s": 0.0838,
+      "last_s": 404.9123,
+      "duration_s": 404.8285,
+      "mean_hz": 10.001766179999679,
+      "dlc_counts": {
+        "4": 4049
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x228",
+      "frames": 4050,
+      "first_s": 0.0262,
+      "last_s": 404.9568,
+      "duration_s": 404.93059999999997,
+      "mean_hz": 10.001713873932966,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 32
+    },
+    {
+      "can_id": "0x229",
+      "frames": 4049,
+      "first_s": 0.0857,
+      "last_s": 404.8962,
+      "duration_s": 404.81050000000005,
+      "mean_hz": 10.00221091103121,
+      "dlc_counts": {
+        "3": 4049
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x22A",
+      "frames": 4050,
+      "first_s": 0.0652,
+      "last_s": 404.9687,
+      "duration_s": 404.9035,
+      "mean_hz": 10.002383283918267,
+      "dlc_counts": {
+        "4": 4050
+      },
+      "unique_payloads": 8
+    },
+    {
+      "can_id": "0x22B",
+      "frames": 8328,
+      "first_s": 0.0,
+      "last_s": 404.9614,
+      "duration_s": 404.9614,
+      "mean_hz": 20.564922977844308,
+      "dlc_counts": {
+        "8": 8328
+      },
+      "unique_payloads": 436
+    },
+    {
+      "can_id": "0x232",
+      "frames": 405,
+      "first_s": 0.5561,
+      "last_s": 404.5635,
+      "duration_s": 404.00739999999996,
+      "mean_hz": 1.0024568856907077,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 92
+    },
+    {
+      "can_id": "0x234",
+      "frames": 8100,
+      "first_s": 0.0222,
+      "last_s": 404.9491,
+      "duration_s": 404.9269,
+      "mean_hz": 20.003610528221266,
+      "dlc_counts": {
+        "8": 8100
+      },
+      "unique_payloads": 472
+    },
+    {
+      "can_id": "0x238",
+      "frames": 810,
+      "first_s": 0.2703,
+      "last_s": 404.6028,
+      "duration_s": 404.3325,
+      "mean_hz": 2.003301738049749,
+      "dlc_counts": {
+        "8": 810
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x23A",
+      "frames": 405,
+      "first_s": 0.9306,
+      "last_s": 404.9578,
+      "duration_s": 404.0272,
+      "mean_hz": 1.0024077586855538,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 38
+    },
+    {
+      "can_id": "0x23E",
+      "frames": 10124,
+      "first_s": 0.0215,
+      "last_s": 404.9532,
+      "duration_s": 404.9317,
+      "mean_hz": 25.001747208232896,
+      "dlc_counts": {
+        "8": 10124
+      },
+      "unique_payloads": 659
+    },
+    {
+      "can_id": "0x241",
+      "frames": 4050,
+      "first_s": 0.0384,
+      "last_s": 404.9626,
+      "duration_s": 404.9242,
+      "mean_hz": 10.00187195529435,
+      "dlc_counts": {
+        "7": 4050
+      },
+      "unique_payloads": 21
+    },
+    {
+      "can_id": "0x242",
+      "frames": 4049,
+      "first_s": 0.0952,
+      "last_s": 404.9227,
+      "duration_s": 404.82750000000004,
+      "mean_hz": 10.00179088624167,
+      "dlc_counts": {
+        "4": 4049
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x243",
+      "frames": 20247,
+      "first_s": 0.0078,
+      "last_s": 404.955,
+      "duration_s": 404.9472,
+      "mean_hz": 49.999110995211225,
+      "dlc_counts": {
+        "8": 20247
+      },
+      "unique_payloads": 30
+    },
+    {
+      "can_id": "0x249",
+      "frames": 8099,
+      "first_s": 0.0358,
+      "last_s": 404.9464,
+      "duration_s": 404.9106,
+      "mean_hz": 20.0019461085978,
+      "dlc_counts": {
+        "4": 8099
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x24A",
+      "frames": 405,
+      "first_s": 0.5003,
+      "last_s": 404.5044,
+      "duration_s": 404.0041,
+      "mean_hz": 1.002465073993061,
+      "dlc_counts": {
+        "1": 405
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x252",
+      "frames": 4050,
+      "first_s": 0.0333,
+      "last_s": 404.9425,
+      "duration_s": 404.9092,
+      "mean_hz": 10.002242478066687,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 169
+    },
+    {
+      "can_id": "0x253",
+      "frames": 1622,
+      "first_s": 0.0202,
+      "last_s": 404.9028,
+      "duration_s": 404.8826,
+      "mean_hz": 4.006099545893056,
+      "dlc_counts": {
+        "8": 1622
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x25A",
+      "frames": 405,
+      "first_s": 0.6465,
+      "last_s": 404.6739,
+      "duration_s": 404.0274,
+      "mean_hz": 1.002407262477743,
+      "dlc_counts": {
+        "6": 405
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x25B",
+      "frames": 4050,
+      "first_s": 0.0004,
+      "last_s": 404.9216,
+      "duration_s": 404.9212,
+      "mean_hz": 10.001946057652699,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x25D",
+      "frames": 4050,
+      "first_s": 0.0197,
+      "last_s": 404.9481,
+      "duration_s": 404.9284,
+      "mean_hz": 10.00176821383731,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 77
+    },
+    {
+      "can_id": "0x261",
+      "frames": 25309,
+      "first_s": 0.0114,
+      "last_s": 404.9633,
+      "duration_s": 404.9519,
+      "mean_hz": 62.49878071938914,
+      "dlc_counts": {
+        "8": 25309
+      },
+      "unique_payloads": 3926
+    },
+    {
+      "can_id": "0x262",
+      "frames": 405,
+      "first_s": 0.2757,
+      "last_s": 404.3024,
+      "duration_s": 404.0267,
+      "mean_hz": 1.0024089992072307,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x263",
+      "frames": 20247,
+      "first_s": 0.0175,
+      "last_s": 404.9651,
+      "duration_s": 404.9476,
+      "mean_hz": 49.99906160698322,
+      "dlc_counts": {
+        "8": 20247
+      },
+      "unique_payloads": 7
+    },
+    {
+      "can_id": "0x264",
+      "frames": 4050,
+      "first_s": 0.0764,
+      "last_s": 404.9519,
+      "duration_s": 404.87550000000005,
+      "mean_hz": 10.003075019357802,
+      "dlc_counts": {
+        "6": 4050
+      },
+      "unique_payloads": 407
+    },
+    {
+      "can_id": "0x272",
+      "frames": 4050,
+      "first_s": 0.0233,
+      "last_s": 404.95,
+      "duration_s": 404.9267,
+      "mean_hz": 10.001810204167816,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 10
+    },
+    {
+      "can_id": "0x273",
+      "frames": 810,
+      "first_s": 0.1708,
+      "last_s": 404.5027,
+      "duration_s": 404.3319,
+      "mean_hz": 2.0033047108081257,
+      "dlc_counts": {
+        "8": 810
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x27D",
+      "frames": 4050,
+      "first_s": 0.0205,
+      "last_s": 404.9489,
+      "duration_s": 404.92839999999995,
+      "mean_hz": 10.001768213837313,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x282",
+      "frames": 4050,
+      "first_s": 0.0302,
+      "last_s": 404.957,
+      "duration_s": 404.9268,
+      "mean_hz": 10.001807734138614,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x283",
+      "frames": 4049,
+      "first_s": 0.0895,
+      "last_s": 404.9176,
+      "duration_s": 404.8281,
+      "mean_hz": 10.001776062481829,
+      "dlc_counts": {
+        "6": 4049
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x284",
+      "frames": 810,
+      "first_s": 0.3205,
+      "last_s": 404.6527,
+      "duration_s": 404.3322,
+      "mean_hz": 2.0033032244278344,
+      "dlc_counts": {
+        "8": 810
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x285",
+      "frames": 3241,
+      "first_s": 0.0231,
+      "last_s": 404.8552,
+      "duration_s": 404.8321,
+      "mean_hz": 8.005788078563928,
+      "dlc_counts": {
+        "8": 3241
+      },
+      "unique_payloads": 4
+    },
+    {
+      "can_id": "0x286",
+      "frames": 810,
+      "first_s": 0.3701,
+      "last_s": 404.7026,
+      "duration_s": 404.33250000000004,
+      "mean_hz": 2.0033017380497484,
+      "dlc_counts": {
+        "5": 810
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x288",
+      "frames": 4049,
+      "first_s": 0.0813,
+      "last_s": 404.9135,
+      "duration_s": 404.8322,
+      "mean_hz": 10.001674767965591,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 32
+    },
+    {
+      "can_id": "0x289",
+      "frames": 4049,
+      "first_s": 0.0444,
+      "last_s": 404.8712,
+      "duration_s": 404.8268,
+      "mean_hz": 10.00180818068369,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 15
+    },
+    {
+      "can_id": "0x292",
+      "frames": 4050,
+      "first_s": 0.0337,
+      "last_s": 404.9426,
+      "duration_s": 404.9089,
+      "mean_hz": 10.002249888802147,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 167
+    },
+    {
+      "can_id": "0x293",
+      "frames": 810,
+      "first_s": 0.4703,
+      "last_s": 404.8026,
+      "duration_s": 404.3323,
+      "mean_hz": 2.0033027289682277,
+      "dlc_counts": {
+        "8": 810
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x294",
+      "frames": 810,
+      "first_s": 0.2205,
+      "last_s": 404.5545,
+      "duration_s": 404.334,
+      "mean_hz": 2.003294306192405,
+      "dlc_counts": {
+        "8": 810
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x295",
+      "frames": 972,
+      "first_s": 0.2699,
+      "last_s": 400.6633,
+      "duration_s": 400.3934,
+      "mean_hz": 2.42761244316215,
+      "dlc_counts": {
+        "8": 972
+      },
+      "unique_payloads": 12
+    },
+    {
+      "can_id": "0x29D",
+      "frames": 4050,
+      "first_s": 0.0207,
+      "last_s": 404.9494,
+      "duration_s": 404.92870000000005,
+      "mean_hz": 10.001760803815584,
+      "dlc_counts": {
+        "5": 4050
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x2A1",
+      "frames": 4049,
+      "first_s": 0.0944,
+      "last_s": 404.9192,
+      "duration_s": 404.8248,
+      "mean_hz": 10.001857593704734,
+      "dlc_counts": {
+        "6": 4049
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x2A2",
+      "frames": 2025,
+      "first_s": 53.7348,
+      "last_s": 256.1344,
+      "duration_s": 202.39960000000002,
+      "mean_hz": 10.004960484111628,
+      "dlc_counts": {
+        "7": 2025
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x2A3",
+      "frames": 2025,
+      "first_s": 53.6375,
+      "last_s": 256.0414,
+      "duration_s": 202.40390000000002,
+      "mean_hz": 10.004747932228577,
+      "dlc_counts": {
+        "7": 2025
+      },
+      "unique_payloads": 22
+    },
+    {
+      "can_id": "0x2A4",
+      "frames": 405,
+      "first_s": 0.6789,
+      "last_s": 404.6533,
+      "duration_s": 403.9744,
+      "mean_hz": 1.0025387747342405,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 356
+    },
+    {
+      "can_id": "0x2A6",
+      "frames": 4050,
+      "first_s": 0.0682,
+      "last_s": 404.9681,
+      "duration_s": 404.8999,
+      "mean_hz": 10.002472215972393,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x2A7",
+      "frames": 4050,
+      "first_s": 0.068,
+      "last_s": 404.9684,
+      "duration_s": 404.9004,
+      "mean_hz": 10.002459864203642,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 5
+    },
+    {
+      "can_id": "0x2A8",
+      "frames": 4049,
+      "first_s": 0.0933,
+      "last_s": 404.9255,
+      "duration_s": 404.8322,
+      "mean_hz": 10.001674767965591,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 32
+    },
+    {
+      "can_id": "0x2AA",
+      "frames": 4049,
+      "first_s": 0.0692,
+      "last_s": 404.9014,
+      "duration_s": 404.8322,
+      "mean_hz": 10.001674767965591,
+      "dlc_counts": {
+        "3": 4049
+      },
+      "unique_payloads": 32
+    },
+    {
+      "can_id": "0x2B3",
+      "frames": 6749,
+      "first_s": 0.0578,
+      "last_s": 404.9656,
+      "duration_s": 404.9078,
+      "mean_hz": 16.66799207128141,
+      "dlc_counts": {
+        "8": 6749
+      },
+      "unique_payloads": 191
+    },
+    {
+      "can_id": "0x2B4",
+      "frames": 4050,
+      "first_s": 0.0766,
+      "last_s": 404.9523,
+      "duration_s": 404.8757,
+      "mean_hz": 10.003070078051115,
+      "dlc_counts": {
+        "6": 4050
+      },
+      "unique_payloads": 1997
+    },
+    {
+      "can_id": "0x2BD",
+      "frames": 4050,
+      "first_s": 0.0209,
+      "last_s": 404.9495,
+      "duration_s": 404.9286,
+      "mean_hz": 10.001763273821606,
+      "dlc_counts": {
+        "4": 4050
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x2BF",
+      "frames": 2024,
+      "first_s": 0.1841,
+      "last_s": 404.8076,
+      "duration_s": 404.6235,
+      "mean_hz": 5.002181039904999,
+      "dlc_counts": {
+        "7": 2024
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x2C1",
+      "frames": 20248,
+      "first_s": 0.0036,
+      "last_s": 404.9676,
+      "duration_s": 404.964,
+      "mean_hz": 49.999506128939856,
+      "dlc_counts": {
+        "8": 20248
+      },
+      "unique_payloads": 13
+    },
+    {
+      "can_id": "0x2C2",
+      "frames": 4049,
+      "first_s": 0.0722,
+      "last_s": 404.899,
+      "duration_s": 404.8268,
+      "mean_hz": 10.00180818068369,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x2C3",
+      "frames": 4049,
+      "first_s": 0.0684,
+      "last_s": 404.8951,
+      "duration_s": 404.8267,
+      "mean_hz": 10.001810651323146,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x2C4",
+      "frames": 4050,
+      "first_s": 0.0744,
+      "last_s": 404.9515,
+      "duration_s": 404.8771,
+      "mean_hz": 10.003035489040995,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 1059
+    },
+    {
+      "can_id": "0x2C7",
+      "frames": 4050,
+      "first_s": 0.0687,
+      "last_s": 404.9678,
+      "duration_s": 404.89910000000003,
+      "mean_hz": 10.002491978865844,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x2D1",
+      "frames": 4049,
+      "first_s": 0.0713,
+      "last_s": 404.8954,
+      "duration_s": 404.8241,
+      "mean_hz": 10.001874888377447,
+      "dlc_counts": {
+        "2": 4049
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x2D2",
+      "frames": 4050,
+      "first_s": 0.0328,
+      "last_s": 404.942,
+      "duration_s": 404.9092,
+      "mean_hz": 10.002242478066687,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 49
+    },
+    {
+      "can_id": "0x2D3",
+      "frames": 817,
+      "first_s": 0.4698,
+      "last_s": 404.3288,
+      "duration_s": 403.859,
+      "mean_hz": 2.0229832689131606,
+      "dlc_counts": {
+        "8": 817
+      },
+      "unique_payloads": 9
+    },
+    {
+      "can_id": "0x2D7",
+      "frames": 404,
+      "first_s": 0.9914,
+      "last_s": 404.0184,
+      "duration_s": 403.027,
+      "mean_hz": 1.002414230312113,
+      "dlc_counts": {
+        "4": 404
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x2E1",
+      "frames": 25309,
+      "first_s": 0.0034,
+      "last_s": 404.9552,
+      "duration_s": 404.9518,
+      "mean_hz": 62.49879615302365,
+      "dlc_counts": {
+        "8": 25309
+      },
+      "unique_payloads": 750
+    },
+    {
+      "can_id": "0x2E2",
+      "frames": 2025,
+      "first_s": 0.0815,
+      "last_s": 404.9083,
+      "duration_s": 404.8268,
+      "mean_hz": 5.002139186437262,
+      "dlc_counts": {
+        "8": 2025
+      },
+      "unique_payloads": 77
+    },
+    {
+      "can_id": "0x2E3",
+      "frames": 2025,
+      "first_s": 0.0768,
+      "last_s": 404.9031,
+      "duration_s": 404.8263,
+      "mean_hz": 5.00214536456747,
+      "dlc_counts": {
+        "7": 2025
+      },
+      "unique_payloads": 101
+    },
+    {
+      "can_id": "0x2E8",
+      "frames": 4049,
+      "first_s": 0.0382,
+      "last_s": 404.8688,
+      "duration_s": 404.8306,
+      "mean_hz": 10.001714297288792,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 32
+    },
+    {
+      "can_id": "0x2EC",
+      "frames": 4050,
+      "first_s": 0.0143,
+      "last_s": 404.9446,
+      "duration_s": 404.9303,
+      "mean_hz": 10.001721283885153,
+      "dlc_counts": {
+        "3": 4050
+      },
+      "unique_payloads": 32
+    },
+    {
+      "can_id": "0x2F1",
+      "frames": 4049,
+      "first_s": 0.0494,
+      "last_s": 404.873,
+      "duration_s": 404.8236,
+      "mean_hz": 10.001887241751716,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 500
+    },
+    {
+      "can_id": "0x2F2",
+      "frames": 4050,
+      "first_s": 0.0339,
+      "last_s": 404.9432,
+      "duration_s": 404.9093,
+      "mean_hz": 10.002240007823975,
+      "dlc_counts": {
+        "2": 4050
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x2F3",
+      "frames": 810,
+      "first_s": 0.1703,
+      "last_s": 404.5025,
+      "duration_s": 404.3322,
+      "mean_hz": 2.0033032244278344,
+      "dlc_counts": {
+        "8": 810
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x2F9",
+      "frames": 4049,
+      "first_s": 0.077,
+      "last_s": 404.9038,
+      "duration_s": 404.8268,
+      "mean_hz": 10.00180818068369,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 6
+    },
+    {
+      "can_id": "0x300",
+      "frames": 405,
+      "first_s": 0.8873,
+      "last_s": 404.8956,
+      "duration_s": 404.0083,
+      "mean_hz": 1.0024546525405542,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 6
+    },
+    {
+      "can_id": "0x301",
+      "frames": 405,
+      "first_s": 0.6844,
+      "last_s": 404.7079,
+      "duration_s": 404.0235,
+      "mean_hz": 1.0024169386186694,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 13
+    },
+    {
+      "can_id": "0x302",
+      "frames": 405,
+      "first_s": 0.7073,
+      "last_s": 404.7343,
+      "duration_s": 404.02700000000004,
+      "mean_hz": 1.002408254893856,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 13
+    },
+    {
+      "can_id": "0x303",
+      "frames": 405,
+      "first_s": 0.7765,
+      "last_s": 404.8029,
+      "duration_s": 404.0264,
+      "mean_hz": 1.0024097435217103,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 13
+    },
+    {
+      "can_id": "0x310",
+      "frames": 243,
+      "first_s": 1.3019,
+      "last_s": 404.3055,
+      "duration_s": 403.0036,
+      "mean_hz": 0.6029722811409128,
+      "dlc_counts": {
+        "8": 243
+      },
+      "unique_payloads": 6
+    },
+    {
+      "can_id": "0x311",
+      "frames": 405,
+      "first_s": 0.8874,
+      "last_s": 404.8959,
+      "duration_s": 404.00849999999997,
+      "mean_hz": 1.0024541562863158,
+      "dlc_counts": {
+        "2": 405
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x312",
+      "frames": 810,
+      "first_s": 0.0341,
+      "last_s": 404.5415,
+      "duration_s": 404.50739999999996,
+      "mean_hz": 2.0024355549490567,
+      "dlc_counts": {
+        "8": 810
+      },
+      "unique_payloads": 19
+    },
+    {
+      "can_id": "0x313",
+      "frames": 810,
+      "first_s": 0.421,
+      "last_s": 404.7534,
+      "duration_s": 404.3324,
+      "mean_hz": 2.0033022335088653,
+      "dlc_counts": {
+        "8": 810
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x318",
+      "frames": 4050,
+      "first_s": 0.0139,
+      "last_s": 404.9453,
+      "duration_s": 404.9314,
+      "mean_hz": 10.001694114114144,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 4050
+    },
+    {
+      "can_id": "0x319",
+      "frames": 405,
+      "first_s": 0.2145,
+      "last_s": 404.2418,
+      "duration_s": 404.0273,
+      "mean_hz": 1.0024075105815868,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 21
+    },
+    {
+      "can_id": "0x31A",
+      "frames": 2025,
+      "first_s": 0.0095,
+      "last_s": 404.8378,
+      "duration_s": 404.8283,
+      "mean_hz": 5.002120652138203,
+      "dlc_counts": {
+        "8": 2025
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x31E",
+      "frames": 1620,
+      "first_s": 0.0188,
+      "last_s": 404.9469,
+      "duration_s": 404.92810000000003,
+      "mean_hz": 4.000710249548006,
+      "dlc_counts": {
+        "8": 1620
+      },
+      "unique_payloads": 5
+    },
+    {
+      "can_id": "0x320",
+      "frames": 2025,
+      "first_s": 0.0961,
+      "last_s": 404.9041,
+      "duration_s": 404.80800000000005,
+      "mean_hz": 5.002371494634493,
+      "dlc_counts": {
+        "8": 2025
+      },
+      "unique_payloads": 5
+    },
+    {
+      "can_id": "0x321",
+      "frames": 405,
+      "first_s": 0.0834,
+      "last_s": 404.107,
+      "duration_s": 404.02360000000004,
+      "mean_hz": 1.0024166905101581,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 169
+    },
+    {
+      "can_id": "0x323",
+      "frames": 405,
+      "first_s": 0.4438,
+      "last_s": 404.4723,
+      "duration_s": 404.0285,
+      "mean_hz": 1.0024045333435636,
+      "dlc_counts": {
+        "5": 405
+      },
+      "unique_payloads": 6
+    },
+    {
+      "can_id": "0x324",
+      "frames": 406,
+      "first_s": 0.0702,
+      "last_s": 404.9019,
+      "duration_s": 404.8317,
+      "mean_hz": 1.0028858906058986,
+      "dlc_counts": {
+        "8": 406
+      },
+      "unique_payloads": 406
+    },
+    {
+      "can_id": "0x32A",
+      "frames": 81,
+      "first_s": 1.0343,
+      "last_s": 401.0412,
+      "duration_s": 400.00690000000003,
+      "mean_hz": 0.20249650693525534,
+      "dlc_counts": {
+        "5": 81
+      },
+      "unique_payloads": 73
+    },
+    {
+      "can_id": "0x330",
+      "frames": 324,
+      "first_s": 0.4863,
+      "last_s": 404.2461,
+      "duration_s": 403.7598,
+      "mean_hz": 0.8024573025843583,
+      "dlc_counts": {
+        "8": 324
+      },
+      "unique_payloads": 8
+    },
+    {
+      "can_id": "0x332",
+      "frames": 405,
+      "first_s": 0.887,
+      "last_s": 404.8948,
+      "duration_s": 404.0078,
+      "mean_hz": 1.0024558931783,
+      "dlc_counts": {
+        "6": 405
+      },
+      "unique_payloads": 55
+    },
+    {
+      "can_id": "0x333",
+      "frames": 817,
+      "first_s": 0.1213,
+      "last_s": 404.9528,
+      "duration_s": 404.8315,
+      "mean_hz": 2.0181235896910197,
+      "dlc_counts": {
+        "5": 817
+      },
+      "unique_payloads": 4
+    },
+    {
+      "can_id": "0x334",
+      "frames": 811,
+      "first_s": 0.1215,
+      "last_s": 404.9534,
+      "duration_s": 404.83189999999996,
+      "mean_hz": 2.00330062922413,
+      "dlc_counts": {
+        "8": 811
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x339",
+      "frames": 4049,
+      "first_s": 0.0906,
+      "last_s": 404.9178,
+      "duration_s": 404.8272,
+      "mean_hz": 10.00179829813807,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x33A",
+      "frames": 405,
+      "first_s": 0.171,
+      "last_s": 404.0033,
+      "duration_s": 403.83230000000003,
+      "mean_hz": 1.0028915468128725,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 3
+    },
+    {
+      "can_id": "0x340",
+      "frames": 4050,
+      "first_s": 0.0274,
+      "last_s": 404.9512,
+      "duration_s": 404.92379999999997,
+      "mean_hz": 10.001881835545355,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 12
+    },
+    {
+      "can_id": "0x343",
+      "frames": 4050,
+      "first_s": 0.0375,
+      "last_s": 404.9649,
+      "duration_s": 404.9274,
+      "mean_hz": 10.001792913989027,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 37
+    },
+    {
+      "can_id": "0x348",
+      "frames": 405,
+      "first_s": 0.5147,
+      "last_s": 404.5458,
+      "duration_s": 404.0311,
+      "mean_hz": 1.00239808272185,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 405
+    },
+    {
+      "can_id": "0x34A",
+      "frames": 809,
+      "first_s": 0.471,
+      "last_s": 404.498,
+      "duration_s": 404.027,
+      "mean_hz": 2.002341427676863,
+      "dlc_counts": {
+        "8": 809
+      },
+      "unique_payloads": 5
+    },
+    {
+      "can_id": "0x352",
+      "frames": 607,
+      "first_s": 0.234,
+      "last_s": 404.2415,
+      "duration_s": 404.0075,
+      "mean_hz": 1.502447355556518,
+      "dlc_counts": {
+        "8": 607
+      },
+      "unique_payloads": 40
+    },
+    {
+      "can_id": "0x353",
+      "frames": 405,
+      "first_s": 0.3703,
+      "last_s": 404.2027,
+      "duration_s": 403.8324,
+      "mean_hz": 1.002891298469365,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 3
+    },
+    {
+      "can_id": "0x355",
+      "frames": 405,
+      "first_s": 0.4199,
+      "last_s": 404.2533,
+      "duration_s": 403.83340000000004,
+      "mean_hz": 1.002888815041054,
+      "dlc_counts": {
+        "7": 405
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x359",
+      "frames": 4049,
+      "first_s": 0.0486,
+      "last_s": 404.8758,
+      "duration_s": 404.8272,
+      "mean_hz": 10.00179829813807,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 26
+    },
+    {
+      "can_id": "0x35F",
+      "frames": 405,
+      "first_s": 0.9362,
+      "last_s": 404.9434,
+      "duration_s": 404.0072,
+      "mean_hz": 1.0024573819476483,
+      "dlc_counts": {
+        "1": 405
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x360",
+      "frames": 4050,
+      "first_s": 0.0024,
+      "last_s": 404.9308,
+      "duration_s": 404.92839999999995,
+      "mean_hz": 10.001768213837313,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 11
+    },
+    {
+      "can_id": "0x361",
+      "frames": 405,
+      "first_s": 0.3834,
+      "last_s": 404.407,
+      "duration_s": 404.0236,
+      "mean_hz": 1.0024166905101584,
+      "dlc_counts": {
+        "5": 405
+      },
+      "unique_payloads": 3
+    },
+    {
+      "can_id": "0x362",
+      "frames": 405,
+      "first_s": 0.566,
+      "last_s": 404.5924,
+      "duration_s": 404.0264,
+      "mean_hz": 1.0024097435217103,
+      "dlc_counts": {
+        "3": 405
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x364",
+      "frames": 405,
+      "first_s": 0.677,
+      "last_s": 404.6537,
+      "duration_s": 403.9767,
+      "mean_hz": 1.0025330668823227,
+      "dlc_counts": {
+        "4": 405
+      },
+      "unique_payloads": 60
+    },
+    {
+      "can_id": "0x366",
+      "frames": 405,
+      "first_s": 0.5689,
+      "last_s": 404.5685,
+      "duration_s": 403.9996,
+      "mean_hz": 1.0024762400754852,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 4
+    },
+    {
+      "can_id": "0x372",
+      "frames": 6075,
+      "first_s": 0.0161,
+      "last_s": 404.9637,
+      "duration_s": 404.9476,
+      "mean_hz": 15.00194099187154,
+      "dlc_counts": {
+        "8": 6075
+      },
+      "unique_payloads": 1532
+    },
+    {
+      "can_id": "0x373",
+      "frames": 405,
+      "first_s": 0.3705,
+      "last_s": 404.2029,
+      "duration_s": 403.8324,
+      "mean_hz": 1.002891298469365,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 14
+    },
+    {
+      "can_id": "0x379",
+      "frames": 4050,
+      "first_s": 0.0281,
+      "last_s": 404.9548,
+      "duration_s": 404.9267,
+      "mean_hz": 10.001810204167816,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 1227
+    },
+    {
+      "can_id": "0x37A",
+      "frames": 4049,
+      "first_s": 0.0415,
+      "last_s": 404.8707,
+      "duration_s": 404.8292,
+      "mean_hz": 10.001748885702908,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 13
+    },
+    {
+      "can_id": "0x37D",
+      "frames": 405,
+      "first_s": 0.6189,
+      "last_s": 404.6468,
+      "duration_s": 404.0279,
+      "mean_hz": 1.0024060219603645,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 40
+    },
+    {
+      "can_id": "0x381",
+      "frames": 11248,
+      "first_s": 0.0284,
+      "last_s": 404.9437,
+      "duration_s": 404.9153,
+      "mean_hz": 27.778649016226357,
+      "dlc_counts": {
+        "8": 11248
+      },
+      "unique_payloads": 171
+    },
+    {
+      "can_id": "0x382",
+      "frames": 405,
+      "first_s": 0.424,
+      "last_s": 404.4502,
+      "duration_s": 404.0262,
+      "mean_hz": 1.0024102397319776,
+      "dlc_counts": {
+        "5": 405
+      },
+      "unique_payloads": 7
+    },
+    {
+      "can_id": "0x383",
+      "frames": 4049,
+      "first_s": 0.0557,
+      "last_s": 404.8834,
+      "duration_s": 404.8277,
+      "mean_hz": 10.001785944983508,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 42
+    },
+    {
+      "can_id": "0x38A",
+      "frames": 4049,
+      "first_s": 0.0561,
+      "last_s": 404.8828,
+      "duration_s": 404.82669999999996,
+      "mean_hz": 10.001810651323147,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 3
+    },
+    {
+      "can_id": "0x38B",
+      "frames": 407,
+      "first_s": 0.635,
+      "last_s": 404.6245,
+      "duration_s": 403.9895,
+      "mean_hz": 1.007451926349571,
+      "dlc_counts": {
+        "8": 407
+      },
+      "unique_payloads": 138
+    },
+    {
+      "can_id": "0x38D",
+      "frames": 405,
+      "first_s": 0.5652,
+      "last_s": 404.5846,
+      "duration_s": 404.0194,
+      "mean_hz": 1.0024271111733742,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 5
+    },
+    {
+      "can_id": "0x390",
+      "frames": 405,
+      "first_s": 0.321,
+      "last_s": 404.1536,
+      "duration_s": 403.83259999999996,
+      "mean_hz": 1.002890801782719,
+      "dlc_counts": {
+        "2": 405
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x392",
+      "frames": 810,
+      "first_s": 0.0343,
+      "last_s": 404.5418,
+      "duration_s": 404.50750000000005,
+      "mean_hz": 2.0024350599185428,
+      "dlc_counts": {
+        "8": 810
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x393",
+      "frames": 4050,
+      "first_s": 0.0199,
+      "last_s": 404.9478,
+      "duration_s": 404.92789999999997,
+      "mean_hz": 10.001780563897919,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 5
+    },
+    {
+      "can_id": "0x399",
+      "frames": 405,
+      "first_s": 0.0724,
+      "last_s": 404.101,
+      "duration_s": 404.0286,
+      "mean_hz": 1.0024042852411934,
+      "dlc_counts": {
+        "3": 405
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x39A",
+      "frames": 4049,
+      "first_s": 0.0625,
+      "last_s": 404.8908,
+      "duration_s": 404.8283,
+      "mean_hz": 10.001771121238312,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 1529
+    },
+    {
+      "can_id": "0x39B",
+      "frames": 818,
+      "first_s": 0.1661,
+      "last_s": 404.5999,
+      "duration_s": 404.4338,
+      "mean_hz": 2.0225807041844672,
+      "dlc_counts": {
+        "8": 818
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x39D",
+      "frames": 10124,
+      "first_s": 0.0053,
+      "last_s": 404.9347,
+      "duration_s": 404.92940000000004,
+      "mean_hz": 25.001889218219272,
+      "dlc_counts": {
+        "5": 10124
+      },
+      "unique_payloads": 32
+    },
+    {
+      "can_id": "0x3A1",
+      "frames": 8099,
+      "first_s": 0.0157,
+      "last_s": 404.9395,
+      "duration_s": 404.9238,
+      "mean_hz": 20.001294070637485,
+      "dlc_counts": {
+        "8": 8099
+      },
+      "unique_payloads": 334
+    },
+    {
+      "can_id": "0x3A2",
+      "frames": 12271,
+      "first_s": 0.0013,
+      "last_s": 404.9385,
+      "duration_s": 404.93719999999996,
+      "mean_hz": 30.303464339655633,
+      "dlc_counts": {
+        "8": 12271
+      },
+      "unique_payloads": 93
+    },
+    {
+      "can_id": "0x3A3",
+      "frames": 4050,
+      "first_s": 0.0135,
+      "last_s": 404.9418,
+      "duration_s": 404.9283,
+      "mean_hz": 10.001770683846992,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x3A4",
+      "frames": 405,
+      "first_s": 0.6792,
+      "last_s": 404.6543,
+      "duration_s": 403.9751,
+      "mean_hz": 1.0025370375550375,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x3A8",
+      "frames": 2024,
+      "first_s": 0.1816,
+      "last_s": 404.808,
+      "duration_s": 404.6264,
+      "mean_hz": 5.002145188746953,
+      "dlc_counts": {
+        "8": 2024
+      },
+      "unique_payloads": 71
+    },
+    {
+      "can_id": "0x3AA",
+      "frames": 810,
+      "first_s": 0.4002,
+      "last_s": 404.9034,
+      "duration_s": 404.5032,
+      "mean_hz": 2.0024563464516474,
+      "dlc_counts": {
+        "8": 810
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x3AE",
+      "frames": 10707,
+      "first_s": 0.0252,
+      "last_s": 404.9642,
+      "duration_s": 404.939,
+      "mean_hz": 26.441019511580755,
+      "dlc_counts": {
+        "8": 10707
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x3B2",
+      "frames": 1256,
+      "first_s": 1.0351,
+      "last_s": 404.8424,
+      "duration_s": 403.8073,
+      "mean_hz": 3.1103944876677563,
+      "dlc_counts": {
+        "8": 1256
+      },
+      "unique_payloads": 371
+    },
+    {
+      "can_id": "0x3B3",
+      "frames": 811,
+      "first_s": 0.0706,
+      "last_s": 404.902,
+      "duration_s": 404.8314,
+      "mean_hz": 2.0033031034648006,
+      "dlc_counts": {
+        "8": 811
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x3BB",
+      "frames": 405,
+      "first_s": 0.1701,
+      "last_s": 404.0026,
+      "duration_s": 403.8325,
+      "mean_hz": 1.0028910501259805,
+      "dlc_counts": {
+        "3": 405
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x3BC",
+      "frames": 406,
+      "first_s": 0.1217,
+      "last_s": 404.9539,
+      "duration_s": 404.8322,
+      "mean_hz": 1.0028846519619734,
+      "dlc_counts": {
+        "4": 406
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x3BD",
+      "frames": 404,
+      "first_s": 0.9835,
+      "last_s": 404.007,
+      "duration_s": 403.0235,
+      "mean_hz": 1.002422935635267,
+      "dlc_counts": {
+        "8": 404
+      },
+      "unique_payloads": 6
+    },
+    {
+      "can_id": "0x3C0",
+      "frames": 4049,
+      "first_s": 0.0957,
+      "last_s": 404.9229,
+      "duration_s": 404.8272,
+      "mean_hz": 10.00179829813807,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 11
+    },
+    {
+      "can_id": "0x3C2",
+      "frames": 8099,
+      "first_s": 0.0315,
+      "last_s": 404.9587,
+      "duration_s": 404.9272,
+      "mean_hz": 20.001126128350972,
+      "dlc_counts": {
+        "8": 8099
+      },
+      "unique_payloads": 4
+    },
+    {
+      "can_id": "0x3C3",
+      "frames": 4049,
+      "first_s": 0.0439,
+      "last_s": 404.8709,
+      "duration_s": 404.827,
+      "mean_hz": 10.001803239408439,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x3C4",
+      "frames": 482,
+      "first_s": 4.0771,
+      "last_s": 404.5534,
+      "duration_s": 400.47630000000004,
+      "mean_hz": 1.203566852770064,
+      "dlc_counts": {
+        "8": 482
+      },
+      "unique_payloads": 12
+    },
+    {
+      "can_id": "0x3C8",
+      "frames": 4049,
+      "first_s": 0.0633,
+      "last_s": 404.8963,
+      "duration_s": 404.83299999999997,
+      "mean_hz": 10.001655003421165,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 7
+    },
+    {
+      "can_id": "0x3C9",
+      "frames": 405,
+      "first_s": 0.3628,
+      "last_s": 404.3916,
+      "duration_s": 404.0288,
+      "mean_hz": 1.0024037890368211,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 12
+    },
+    {
+      "can_id": "0x3CC",
+      "frames": 810,
+      "first_s": 0.264,
+      "last_s": 404.7818,
+      "duration_s": 404.51779999999997,
+      "mean_hz": 2.0023840730865246,
+      "dlc_counts": {
+        "8": 810
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x3D2",
+      "frames": 405,
+      "first_s": 0.8879,
+      "last_s": 404.897,
+      "duration_s": 404.0091,
+      "mean_hz": 1.0024526675265484,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 159
+    },
+    {
+      "can_id": "0x3D3",
+      "frames": 405,
+      "first_s": 0.6097,
+      "last_s": 404.6368,
+      "duration_s": 404.0271,
+      "mean_hz": 1.0024080067896435,
+      "dlc_counts": {
+        "3": 405
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x3D8",
+      "frames": 413,
+      "first_s": 0.3707,
+      "last_s": 404.2025,
+      "duration_s": 403.8318,
+      "mean_hz": 1.0227030164538802,
+      "dlc_counts": {
+        "4": 413
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x3DB",
+      "frames": 810,
+      "first_s": 0.2209,
+      "last_s": 404.7482,
+      "duration_s": 404.5273,
+      "mean_hz": 2.002337048698567,
+      "dlc_counts": {
+        "8": 810
+      },
+      "unique_payloads": 17
+    },
+    {
+      "can_id": "0x3DD",
+      "frames": 405,
+      "first_s": 0.6194,
+      "last_s": 404.6475,
+      "duration_s": 404.0281,
+      "mean_hz": 1.002405525754273,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 99
+    },
+    {
+      "can_id": "0x3DF",
+      "frames": 816,
+      "first_s": 0.4701,
+      "last_s": 404.8018,
+      "duration_s": 404.3317,
+      "mean_hz": 2.018145003223838,
+      "dlc_counts": {
+        "8": 816
+      },
+      "unique_payloads": 5
+    },
+    {
+      "can_id": "0x3E2",
+      "frames": 2025,
+      "first_s": 0.1312,
+      "last_s": 404.958,
+      "duration_s": 404.82680000000005,
+      "mean_hz": 5.002139186437261,
+      "dlc_counts": {
+        "7": 2025
+      },
+      "unique_payloads": 4
+    },
+    {
+      "can_id": "0x3E3",
+      "frames": 2024,
+      "first_s": 0.1439,
+      "last_s": 404.7718,
+      "duration_s": 404.6279,
+      "mean_hz": 5.002126645246163,
+      "dlc_counts": {
+        "4": 2024
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x3E8",
+      "frames": 4050,
+      "first_s": 0.0082,
+      "last_s": 404.939,
+      "duration_s": 404.93080000000003,
+      "mean_hz": 10.001708933970939,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 7
+    },
+    {
+      "can_id": "0x3E9",
+      "frames": 818,
+      "first_s": 0.165,
+      "last_s": 404.5997,
+      "duration_s": 404.43469999999996,
+      "mean_hz": 2.0225762032783043,
+      "dlc_counts": {
+        "8": 818
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x3ED",
+      "frames": 405,
+      "first_s": 0.5148,
+      "last_s": 404.5543,
+      "duration_s": 404.03950000000003,
+      "mean_hz": 1.0023772428190807,
+      "dlc_counts": {
+        "1": 405
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x3F2",
+      "frames": 405,
+      "first_s": 0.8881,
+      "last_s": 404.8972,
+      "duration_s": 404.0091,
+      "mean_hz": 1.0024526675265484,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 177
+    },
+    {
+      "can_id": "0x3F5",
+      "frames": 4049,
+      "first_s": 0.0604,
+      "last_s": 404.8847,
+      "duration_s": 404.8243,
+      "mean_hz": 10.001869947036282,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x3F6",
+      "frames": 405,
+      "first_s": 0.7835,
+      "last_s": 404.8071,
+      "duration_s": 404.0236,
+      "mean_hz": 1.0024166905101584,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x3F9",
+      "frames": 4049,
+      "first_s": 0.0845,
+      "last_s": 404.9107,
+      "duration_s": 404.82620000000003,
+      "mean_hz": 10.001823004538737,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 9
+    },
+    {
+      "can_id": "0x3FD",
+      "frames": 2431,
+      "first_s": 0.122,
+      "last_s": 404.9545,
+      "duration_s": 404.8325,
+      "mean_hz": 6.0049526656086165,
+      "dlc_counts": {
+        "8": 2431
+      },
+      "unique_payloads": 3
+    },
+    {
+      "can_id": "0x400",
+      "frames": 4049,
+      "first_s": 0.0651,
+      "last_s": 404.8839,
+      "duration_s": 404.8188,
+      "mean_hz": 10.002005835697354,
+      "dlc_counts": {
+        "7": 4049
+      },
+      "unique_payloads": 65
+    },
+    {
+      "can_id": "0x401",
+      "frames": 14578,
+      "first_s": 0.0166,
+      "last_s": 404.9647,
+      "duration_s": 404.9481,
+      "mean_hz": 35.99967502008282,
+      "dlc_counts": {
+        "8": 14578
+      },
+      "unique_payloads": 11858
+    },
+    {
+      "can_id": "0x405",
+      "frames": 1620,
+      "first_s": 0.0133,
+      "last_s": 404.7928,
+      "duration_s": 404.7795,
+      "mean_hz": 4.002178964102678,
+      "dlc_counts": {
+        "8": 1620
+      },
+      "unique_payloads": 3
+    },
+    {
+      "can_id": "0x407",
+      "frames": 810,
+      "first_s": 0.1968,
+      "last_s": 404.7134,
+      "duration_s": 404.5166,
+      "mean_hz": 2.0023900131663326,
+      "dlc_counts": {
+        "8": 810
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x409",
+      "frames": 4049,
+      "first_s": 0.0605,
+      "last_s": 404.8812,
+      "duration_s": 404.8207,
+      "mean_hz": 10.001958891924252,
+      "dlc_counts": {
+        "1": 4049
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x40A",
+      "frames": 2025,
+      "first_s": 0.0312,
+      "last_s": 404.858,
+      "duration_s": 404.8268,
+      "mean_hz": 5.002139186437262,
+      "dlc_counts": {
+        "8": 2025
+      },
+      "unique_payloads": 32
+    },
+    {
+      "can_id": "0x414",
+      "frames": 1620,
+      "first_s": 0.0126,
+      "last_s": 404.793,
+      "duration_s": 404.7804,
+      "mean_hz": 4.002170065546652,
+      "dlc_counts": {
+        "8": 1620
+      },
+      "unique_payloads": 3
+    },
+    {
+      "can_id": "0x419",
+      "frames": 4049,
+      "first_s": 0.0911,
+      "last_s": 404.9089,
+      "duration_s": 404.81780000000003,
+      "mean_hz": 10.00203054312335,
+      "dlc_counts": {
+        "1": 4049
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x41D",
+      "frames": 4050,
+      "first_s": 0.021,
+      "last_s": 404.9498,
+      "duration_s": 404.92879999999997,
+      "mean_hz": 10.001758333810784,
+      "dlc_counts": {
+        "1": 4050
+      },
+      "unique_payloads": 4
+    },
+    {
+      "can_id": "0x420",
+      "frames": 4050,
+      "first_s": 0.0087,
+      "last_s": 404.9257,
+      "duration_s": 404.91700000000003,
+      "mean_hz": 10.00204980279909,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x421",
+      "frames": 4049,
+      "first_s": 0.0824,
+      "last_s": 404.9062,
+      "duration_s": 404.8238,
+      "mean_hz": 10.001882300398346,
+      "dlc_counts": {
+        "7": 4049
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x422",
+      "frames": 4049,
+      "first_s": 0.0661,
+      "last_s": 404.8933,
+      "duration_s": 404.8272,
+      "mean_hz": 10.00179829813807,
+      "dlc_counts": {
+        "6": 4049
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x423",
+      "frames": 4049,
+      "first_s": 0.0616,
+      "last_s": 404.8889,
+      "duration_s": 404.8273,
+      "mean_hz": 10.001795827504717,
+      "dlc_counts": {
+        "7": 4049
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x428",
+      "frames": 4049,
+      "first_s": 0.0992,
+      "last_s": 404.9315,
+      "duration_s": 404.83230000000003,
+      "mean_hz": 10.001672297393265,
+      "dlc_counts": {
+        "7": 4049
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x42A",
+      "frames": 2025,
+      "first_s": 0.0213,
+      "last_s": 404.8481,
+      "duration_s": 404.8268,
+      "mean_hz": 5.002139186437262,
+      "dlc_counts": {
+        "8": 2025
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x42E",
+      "frames": 405,
+      "first_s": 0.9367,
+      "last_s": 404.9443,
+      "duration_s": 404.0076,
+      "mean_hz": 1.0024563894342582,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x42F",
+      "frames": 405,
+      "first_s": 0.9369,
+      "last_s": 404.9444,
+      "duration_s": 404.0075,
+      "mean_hz": 1.0024566375624215,
+      "dlc_counts": {
+        "7": 405
+      },
+      "unique_payloads": 13
+    },
+    {
+      "can_id": "0x439",
+      "frames": 4050,
+      "first_s": 0.0116,
+      "last_s": 404.9388,
+      "duration_s": 404.9272,
+      "mean_hz": 10.001797854034008,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x43B",
+      "frames": 1619,
+      "first_s": 0.2214,
+      "last_s": 404.7487,
+      "duration_s": 404.52729999999997,
+      "mean_hz": 4.002202076349359,
+      "dlc_counts": {
+        "8": 1619
+      },
+      "unique_payloads": 4
+    },
+    {
+      "can_id": "0x43D",
+      "frames": 4050,
+      "first_s": 0.0217,
+      "last_s": 404.9505,
+      "duration_s": 404.92879999999997,
+      "mean_hz": 10.001758333810784,
+      "dlc_counts": {
+        "6": 4050
+      },
+      "unique_payloads": 10
+    },
+    {
+      "can_id": "0x441",
+      "frames": 8099,
+      "first_s": 0.0317,
+      "last_s": 404.9555,
+      "duration_s": 404.92379999999997,
+      "mean_hz": 20.00129407063749,
+      "dlc_counts": {
+        "8": 8099
+      },
+      "unique_payloads": 53
+    },
+    {
+      "can_id": "0x443",
+      "frames": 810,
+      "first_s": 0.2845,
+      "last_s": 404.8085,
+      "duration_s": 404.524,
+      "mean_hz": 2.0023533832356053,
+      "dlc_counts": {
+        "6": 810
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x448",
+      "frames": 4049,
+      "first_s": 0.0446,
+      "last_s": 404.8747,
+      "duration_s": 404.8301,
+      "mean_hz": 10.00172665026637,
+      "dlc_counts": {
+        "7": 4049
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x452",
+      "frames": 405,
+      "first_s": 0.8884,
+      "last_s": 404.8974,
+      "duration_s": 404.009,
+      "mean_hz": 1.002452915652869,
+      "dlc_counts": {
+        "3": 405
+      },
+      "unique_payloads": 3
+    },
+    {
+      "can_id": "0x453",
+      "frames": 405,
+      "first_s": 0.3216,
+      "last_s": 404.1545,
+      "duration_s": 403.8329,
+      "mean_hz": 1.002890056753672,
+      "dlc_counts": {
+        "4": 405
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x458",
+      "frames": 4050,
+      "first_s": 0.0141,
+      "last_s": 404.9455,
+      "duration_s": 404.9314,
+      "mean_hz": 10.001694114114144,
+      "dlc_counts": {
+        "7": 4050
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x45A",
+      "frames": 8099,
+      "first_s": 0.0286,
+      "last_s": 404.9557,
+      "duration_s": 404.9271,
+      "mean_hz": 20.001131067789732,
+      "dlc_counts": {
+        "8": 8099
+      },
+      "unique_payloads": 11
+    },
+    {
+      "can_id": "0x45B",
+      "frames": 41,
+      "first_s": 3.2776,
+      "last_s": 403.3047,
+      "duration_s": 400.0271,
+      "mean_hz": 0.10249305609544952,
+      "dlc_counts": {
+        "2": 41
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x472",
+      "frames": 405,
+      "first_s": 0.8886,
+      "last_s": 404.8976,
+      "duration_s": 404.009,
+      "mean_hz": 1.002452915652869,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 21
+    },
+    {
+      "can_id": "0x473",
+      "frames": 842,
+      "first_s": 0.0699,
+      "last_s": 404.9016,
+      "duration_s": 404.83169999999996,
+      "mean_hz": 2.0798766499757804,
+      "dlc_counts": {
+        "8": 842
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x482",
+      "frames": 182,
+      "first_s": 376.4568,
+      "last_s": 376.8645,
+      "duration_s": 0.4077000000000339,
+      "mean_hz": 446.40667157219735,
+      "dlc_counts": {
+        "3": 9,
+        "5": 5,
+        "8": 168
+      },
+      "unique_payloads": 117
+    },
+    {
+      "can_id": "0x492",
+      "frames": 405,
+      "first_s": 0.8889,
+      "last_s": 404.8979,
+      "duration_s": 404.009,
+      "mean_hz": 1.002452915652869,
+      "dlc_counts": {
+        "7": 405
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x49D",
+      "frames": 4050,
+      "first_s": 0.0219,
+      "last_s": 404.951,
+      "duration_s": 404.9291,
+      "mean_hz": 10.001750923803698,
+      "dlc_counts": {
+        "7": 4050
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x4E2",
+      "frames": 4049,
+      "first_s": 0.0512,
+      "last_s": 404.8799,
+      "duration_s": 404.8287,
+      "mean_hz": 10.001761238765926,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 49
+    },
+    {
+      "can_id": "0x4E3",
+      "frames": 4050,
+      "first_s": 0.0319,
+      "last_s": 404.9592,
+      "duration_s": 404.9273,
+      "mean_hz": 10.001795384010908,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 18
+    },
+    {
+      "can_id": "0x4F3",
+      "frames": 811,
+      "first_s": 0.0223,
+      "last_s": 404.8528,
+      "duration_s": 404.83050000000003,
+      "mean_hz": 2.003307557113409,
+      "dlc_counts": {
+        "4": 811
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x509",
+      "frames": 41,
+      "first_s": 3.2836,
+      "last_s": 403.3069,
+      "duration_s": 400.0233,
+      "mean_hz": 0.10249402972276865,
+      "dlc_counts": {
+        "5": 41
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x50E",
+      "frames": 2,
+      "first_s": 19.7058,
+      "last_s": 261.0864,
+      "duration_s": 241.38060000000002,
+      "mean_hz": 0.008285670016563053,
+      "dlc_counts": {
+        "8": 2
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x528",
+      "frames": 405,
+      "first_s": 0.5152,
+      "last_s": 404.554,
+      "duration_s": 404.0388,
+      "mean_hz": 1.0023789794445483,
+      "dlc_counts": {
+        "4": 405
+      },
+      "unique_payloads": 405
+    },
+    {
+      "can_id": "0x52F",
+      "frames": 405,
+      "first_s": 0.5168,
+      "last_s": 404.5466,
+      "duration_s": 404.0298,
+      "mean_hz": 1.002401308022329,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 405
+    },
+    {
+      "can_id": "0x53E",
+      "frames": 241,
+      "first_s": 4.6196,
+      "last_s": 404.6483,
+      "duration_s": 400.0287,
+      "mean_hz": 0.6024567737264851,
+      "dlc_counts": {
+        "8": 241
+      },
+      "unique_payloads": 6
+    },
+    {
+      "can_id": "0x545",
+      "frames": 12271,
+      "first_s": 0.0039,
+      "last_s": 404.9377,
+      "duration_s": 404.9338,
+      "mean_hz": 30.303718780699462,
+      "dlc_counts": {
+        "8": 12271
+      },
+      "unique_payloads": 1704
+    },
+    {
+      "can_id": "0x549",
+      "frames": 41,
+      "first_s": 0.7853,
+      "last_s": 400.8083,
+      "duration_s": 400.02299999999997,
+      "mean_hz": 0.10249410658887115,
+      "dlc_counts": {
+        "6": 41
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x54F",
+      "frames": 4049,
+      "first_s": 0.0863,
+      "last_s": 404.8981,
+      "duration_s": 404.8118,
+      "mean_hz": 10.002178790242775,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x552",
+      "frames": 4049,
+      "first_s": 0.0583,
+      "last_s": 404.8856,
+      "duration_s": 404.82730000000004,
+      "mean_hz": 10.001795827504715,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x553",
+      "frames": 4049,
+      "first_s": 0.0499,
+      "last_s": 404.8777,
+      "duration_s": 404.8278,
+      "mean_hz": 10.001783474356257,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x55A",
+      "frames": 1620,
+      "first_s": 0.0129,
+      "last_s": 404.7932,
+      "duration_s": 404.7803,
+      "mean_hz": 4.002171054273145,
+      "dlc_counts": {
+        "8": 1620
+      },
+      "unique_payloads": 4
+    },
+    {
+      "can_id": "0x5F3",
+      "frames": 406,
+      "first_s": 0.0708,
+      "last_s": 404.9026,
+      "duration_s": 404.8318,
+      "mean_hz": 1.0028856428768689,
+      "dlc_counts": {
+        "3": 406
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x61D",
+      "frames": 810,
+      "first_s": 0.2701,
+      "last_s": 404.6017,
+      "duration_s": 404.3316,
+      "mean_hz": 2.0033061971906228,
+      "dlc_counts": {
+        "8": 810
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x666",
+      "frames": 1620,
+      "first_s": 0.0131,
+      "last_s": 404.7934,
+      "duration_s": 404.7803,
+      "mean_hz": 4.002171054273145,
+      "dlc_counts": {
+        "4": 1620
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x672",
+      "frames": 40,
+      "first_s": 5.7854,
+      "last_s": 395.8086,
+      "duration_s": 390.02320000000003,
+      "mean_hz": 0.1025580016778489,
+      "dlc_counts": {
+        "8": 40
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x677",
+      "frames": 10124,
+      "first_s": 0.0041,
+      "last_s": 404.9483,
+      "duration_s": 404.9442,
+      "mean_hz": 25.00097544303635,
+      "dlc_counts": {
+        "8": 10124
+      },
+      "unique_payloads": 5
+    },
+    {
+      "can_id": "0x682",
+      "frames": 4050,
+      "first_s": 0.0044,
+      "last_s": 404.9068,
+      "duration_s": 404.9024,
+      "mean_hz": 10.002410457433692,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x6C8",
+      "frames": 405,
+      "first_s": 0.8495,
+      "last_s": 404.8818,
+      "duration_s": 404.0323,
+      "mean_hz": 1.0023951055398292,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x6E8",
+      "frames": 405,
+      "first_s": 0.3447,
+      "last_s": 404.3755,
+      "duration_s": 404.0308,
+      "mean_hz": 1.0023988270201183,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x708",
+      "frames": 405,
+      "first_s": 0.5173,
+      "last_s": 404.5501,
+      "duration_s": 404.0328,
+      "mean_hz": 1.0023938650525404,
+      "dlc_counts": {
+        "5": 405
+      },
+      "unique_payloads": 7
+    },
+    {
+      "can_id": "0x709",
+      "frames": 1298,
+      "first_s": 0.1479,
+      "last_s": 404.8367,
+      "duration_s": 404.6888,
+      "mean_hz": 3.207402824095947,
+      "dlc_counts": {
+        "8": 1298
+      },
+      "unique_payloads": 37
+    },
+    {
+      "can_id": "0x70A",
+      "frames": 41,
+      "first_s": 3.2814,
+      "last_s": 403.3094,
+      "duration_s": 400.02799999999996,
+      "mean_hz": 0.10249282550221485,
+      "dlc_counts": {
+        "5": 41
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x70B",
+      "frames": 405,
+      "first_s": 0.1081,
+      "last_s": 404.1356,
+      "duration_s": 404.02750000000003,
+      "mean_hz": 1.0024070143740216,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 15
+    },
+    {
+      "can_id": "0x712",
+      "frames": 2430,
+      "first_s": 0.0349,
+      "last_s": 404.5445,
+      "duration_s": 404.50960000000003,
+      "mean_hz": 6.007273993002885,
+      "dlc_counts": {
+        "8": 2430
+      },
+      "unique_payloads": 1454
+    },
+    {
+      "can_id": "0x718",
+      "frames": 2025,
+      "first_s": 0.085,
+      "last_s": 404.9091,
+      "duration_s": 404.82410000000004,
+      "mean_hz": 5.002172548521691,
+      "dlc_counts": {
+        "7": 2025
+      },
+      "unique_payloads": 5
+    },
+    {
+      "can_id": "0x719",
+      "frames": 8099,
+      "first_s": 0.0228,
+      "last_s": 404.9486,
+      "duration_s": 404.9258,
+      "mean_hz": 20.001195280715628,
+      "dlc_counts": {
+        "8": 8099
+      },
+      "unique_payloads": 80
+    },
+    {
+      "can_id": "0x720",
+      "frames": 41,
+      "first_s": 3.2233,
+      "last_s": 403.2504,
+      "duration_s": 400.0271,
+      "mean_hz": 0.10249305609544952,
+      "dlc_counts": {
+        "5": 41
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x724",
+      "frames": 405,
+      "first_s": 0.8834,
+      "last_s": 404.9071,
+      "duration_s": 404.0237,
+      "mean_hz": 1.0024164424017699,
+      "dlc_counts": {
+        "3": 405
+      },
+      "unique_payloads": 10
+    },
+    {
+      "can_id": "0x726",
+      "frames": 405,
+      "first_s": 0.8492,
+      "last_s": 404.8767,
+      "duration_s": 404.02750000000003,
+      "mean_hz": 1.0024070143740216,
+      "dlc_counts": {
+        "3": 405
+      },
+      "unique_payloads": 15
+    },
+    {
+      "can_id": "0x727",
+      "frames": 404,
+      "first_s": 0.9417,
+      "last_s": 403.9706,
+      "duration_s": 403.02889999999996,
+      "mean_hz": 1.0024095046285764,
+      "dlc_counts": {
+        "2": 404
+      },
+      "unique_payloads": 12
+    },
+    {
+      "can_id": "0x72A",
+      "frames": 81,
+      "first_s": 0.8891,
+      "last_s": 400.8987,
+      "duration_s": 400.00960000000003,
+      "mean_hz": 0.2024951401166372,
+      "dlc_counts": {
+        "8": 81
+      },
+      "unique_payloads": 3
+    },
+    {
+      "can_id": "0x737",
+      "frames": 405,
+      "first_s": 0.4834,
+      "last_s": 404.507,
+      "duration_s": 404.0236,
+      "mean_hz": 1.0024166905101584,
+      "dlc_counts": {
+        "7": 405
+      },
+      "unique_payloads": 5
+    },
+    {
+      "can_id": "0x739",
+      "frames": 405,
+      "first_s": 0.5046,
+      "last_s": 404.5318,
+      "duration_s": 404.0272,
+      "mean_hz": 1.0024077586855538,
+      "dlc_counts": {
+        "5": 405
+      },
+      "unique_payloads": 5
+    },
+    {
+      "can_id": "0x743",
+      "frames": 405,
+      "first_s": 0.2734,
+      "last_s": 404.301,
+      "duration_s": 404.0276,
+      "mean_hz": 1.002406766270423,
+      "dlc_counts": {
+        "1": 405
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x744",
+      "frames": 405,
+      "first_s": 0.1345,
+      "last_s": 404.1613,
+      "duration_s": 404.0268,
+      "mean_hz": 1.0024087511026496,
+      "dlc_counts": {
+        "1": 405
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x748",
+      "frames": 405,
+      "first_s": 0.0121,
+      "last_s": 404.0451,
+      "duration_s": 404.033,
+      "mean_hz": 1.0023933688584843,
+      "dlc_counts": {
+        "5": 405
+      },
+      "unique_payloads": 5
+    },
+    {
+      "can_id": "0x752",
+      "frames": 405,
+      "first_s": 0.2261,
+      "last_s": 404.2342,
+      "duration_s": 404.0081,
+      "mean_hz": 1.002455148795284,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 96
+    },
+    {
+      "can_id": "0x75D",
+      "frames": 2025,
+      "first_s": 0.1188,
+      "last_s": 404.9466,
+      "duration_s": 404.82779999999997,
+      "mean_hz": 5.002126830222628,
+      "dlc_counts": {
+        "8": 2025
+      },
+      "unique_payloads": 275
+    },
+    {
+      "can_id": "0x77A",
+      "frames": 810,
+      "first_s": 0.4013,
+      "last_s": 404.9045,
+      "duration_s": 404.5032,
+      "mean_hz": 2.0024563464516474,
+      "dlc_counts": {
+        "8": 810
+      },
+      "unique_payloads": 31
+    },
+    {
+      "can_id": "0x782",
+      "frames": 140,
+      "first_s": 1.0369,
+      "last_s": 403.9456,
+      "duration_s": 402.9087,
+      "mean_hz": 0.3474732613120541,
+      "dlc_counts": {
+        "8": 140
+      },
+      "unique_payloads": 106
+    },
+    {
+      "can_id": "0x788",
+      "frames": 4049,
+      "first_s": 0.0753,
+      "last_s": 404.9093,
+      "duration_s": 404.83399999999995,
+      "mean_hz": 10.001630297850479,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 14
+    },
+    {
+      "can_id": "0x789",
+      "frames": 4049,
+      "first_s": 0.0572,
+      "last_s": 404.8896,
+      "duration_s": 404.83239999999995,
+      "mean_hz": 10.001669826822162,
+      "dlc_counts": {
+        "4": 4049
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x78A",
+      "frames": 4050,
+      "first_s": 0.0006,
+      "last_s": 404.9102,
+      "duration_s": 404.90959999999995,
+      "mean_hz": 10.002232597103157,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 53
+    },
+    {
+      "can_id": "0x797",
+      "frames": 4050,
+      "first_s": 0.0021,
+      "last_s": 404.9328,
+      "duration_s": 404.9307,
+      "mean_hz": 10.001711403951342,
+      "dlc_counts": {
+        "4": 4050
+      },
+      "unique_payloads": 16
+    },
+    {
+      "can_id": "0x798",
+      "frames": 4049,
+      "first_s": 0.0873,
+      "last_s": 404.9197,
+      "duration_s": 404.83239999999995,
+      "mean_hz": 10.001669826822162,
+      "dlc_counts": {
+        "8": 4049
+      },
+      "unique_payloads": 1258
+    },
+    {
+      "can_id": "0x7A8",
+      "frames": 4050,
+      "first_s": 0.0238,
+      "last_s": 404.9507,
+      "duration_s": 404.9269,
+      "mean_hz": 10.001805264110633,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 14
+    },
+    {
+      "can_id": "0x7AA",
+      "frames": 5264,
+      "first_s": 0.0664,
+      "last_s": 404.9194,
+      "duration_s": 404.853,
+      "mean_hz": 13.00225019945511,
+      "dlc_counts": {
+        "8": 5264
+      },
+      "unique_payloads": 1784
+    },
+    {
+      "can_id": "0x7B1",
+      "frames": 200,
+      "first_s": 8.7173,
+      "last_s": 398.761,
+      "duration_s": 390.0437,
+      "mean_hz": 0.5127630570625804,
+      "dlc_counts": {
+        "8": 200
+      },
+      "unique_payloads": 5
+    },
+    {
+      "can_id": "0x7B8",
+      "frames": 4050,
+      "first_s": 0.0322,
+      "last_s": 404.9628,
+      "duration_s": 404.9306,
+      "mean_hz": 10.001713873932964,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 1878
+    },
+    {
+      "can_id": "0x7BC",
+      "frames": 40,
+      "first_s": 8.2839,
+      "last_s": 398.31,
+      "duration_s": 390.0261,
+      "mean_hz": 0.10255723911810005,
+      "dlc_counts": {
+        "8": 40
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x7C8",
+      "frames": 405,
+      "first_s": 0.6833,
+      "last_s": 404.7156,
+      "duration_s": 404.0323,
+      "mean_hz": 1.0023951055398292,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 7
+    },
+    {
+      "can_id": "0x7E8",
+      "frames": 405,
+      "first_s": 0.1783,
+      "last_s": 404.2086,
+      "duration_s": 404.0303,
+      "mean_hz": 1.0024000675196885,
+      "dlc_counts": {
+        "8": 405
+      },
+      "unique_payloads": 7
+    },
+    {
+      "can_id": "0x7F1",
+      "frames": 203,
+      "first_s": 0.5171,
+      "last_s": 404.5527,
+      "duration_s": 404.0356,
+      "mean_hz": 0.5024309739042797,
+      "dlc_counts": {
+        "7": 203
+      },
+      "unique_payloads": 2
+    },
+    {
+      "can_id": "0x7F4",
+      "frames": 4050,
+      "first_s": 0.0144,
+      "last_s": 404.9448,
+      "duration_s": 404.93039999999996,
+      "mean_hz": 10.00171881389987,
+      "dlc_counts": {
+        "1": 4050
+      },
+      "unique_payloads": 1
+    },
+    {
+      "can_id": "0x7FF",
+      "frames": 4050,
+      "first_s": 0.0147,
+      "last_s": 404.9457,
+      "duration_s": 404.931,
+      "mean_hz": 10.001703994013795,
+      "dlc_counts": {
+        "8": 4050
+      },
+      "unique_payloads": 9
+    }
+  ],
+  "strong_bit_transitions": [
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x23A",
+      "byte": 0,
+      "bit_lsb0": 5,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x25D",
+      "byte": 3,
+      "bit_lsb0": 1,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x25D",
+      "byte": 3,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x2A4",
+      "byte": 5,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x301",
+      "byte": 6,
+      "bit_lsb0": 7,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x302",
+      "byte": 4,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x302",
+      "byte": 4,
+      "bit_lsb0": 6,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x302",
+      "byte": 5,
+      "bit_lsb0": 4,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x303",
+      "byte": 4,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x303",
+      "byte": 6,
+      "bit_lsb0": 0,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x303",
+      "byte": 6,
+      "bit_lsb0": 2,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x303",
+      "byte": 6,
+      "bit_lsb0": 7,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x303",
+      "byte": 7,
+      "bit_lsb0": 0,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x319",
+      "byte": 0,
+      "bit_lsb0": 5,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x319",
+      "byte": 4,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x319",
+      "byte": 4,
+      "bit_lsb0": 7,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x319",
+      "byte": 5,
+      "bit_lsb0": 2,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x319",
+      "byte": 5,
+      "bit_lsb0": 5,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x319",
+      "byte": 5,
+      "bit_lsb0": 6,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x319",
+      "byte": 7,
+      "bit_lsb0": 0,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x319",
+      "byte": 7,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x321",
+      "byte": 6,
+      "bit_lsb0": 7,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x321",
+      "byte": 7,
+      "bit_lsb0": 7,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x324",
+      "byte": 1,
+      "bit_lsb0": 5,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x348",
+      "byte": 4,
+      "bit_lsb0": 3,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x348",
+      "byte": 4,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x348",
+      "byte": 4,
+      "bit_lsb0": 5,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x364",
+      "byte": 2,
+      "bit_lsb0": 2,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x383",
+      "byte": 6,
+      "bit_lsb0": 5,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x38B",
+      "byte": 4,
+      "bit_lsb0": 6,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x3D2",
+      "byte": 0,
+      "bit_lsb0": 1,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x3F2",
+      "byte": 4,
+      "bit_lsb0": 4,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x3F2",
+      "byte": 6,
+      "bit_lsb0": 4,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x3F2",
+      "byte": 6,
+      "bit_lsb0": 5,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x3F2",
+      "byte": 6,
+      "bit_lsb0": 7,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x528",
+      "byte": 3,
+      "bit_lsb0": 3,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x528",
+      "byte": 3,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x528",
+      "byte": 3,
+      "bit_lsb0": 5,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x528",
+      "byte": 3,
+      "bit_lsb0": 6,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x528",
+      "byte": 3,
+      "bit_lsb0": 7,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x52F",
+      "byte": 6,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x52F",
+      "byte": 6,
+      "bit_lsb0": 5,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x53E",
+      "byte": 0,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 3,
+      "after_frames": 3
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x53E",
+      "byte": 0,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 3,
+      "after_frames": 3
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x70B",
+      "byte": 0,
+      "bit_lsb0": 2,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x70B",
+      "byte": 6,
+      "bit_lsb0": 6,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x724",
+      "byte": 0,
+      "bit_lsb0": 2,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x727",
+      "byte": 0,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x25D",
+      "byte": 0,
+      "bit_lsb0": 6,
+      "before_one_fraction": 0.025,
+      "after_one_fraction": 1.0,
+      "delta": 0.975,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x25D",
+      "byte": 3,
+      "bit_lsb0": 7,
+      "before_one_fraction": 0.025,
+      "after_one_fraction": 1.0,
+      "delta": 0.975,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x43D",
+      "byte": 5,
+      "bit_lsb0": 5,
+      "before_one_fraction": 0.025,
+      "after_one_fraction": 1.0,
+      "delta": 0.975,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x318",
+      "byte": 2,
+      "bit_lsb0": 3,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.05,
+      "delta": -0.95,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x318",
+      "byte": 2,
+      "bit_lsb0": 4,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 0.95,
+      "delta": 0.95,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x709",
+      "byte": 0,
+      "bit_lsb0": 4,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 0.9230769230769231,
+      "delta": 0.9230769230769231,
+      "before_frames": 13,
+      "after_frames": 13
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x23A",
+      "byte": 0,
+      "bit_lsb0": 3,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x23A",
+      "byte": 0,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x23A",
+      "byte": 0,
+      "bit_lsb0": 5,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x301",
+      "byte": 0,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x302",
+      "byte": 0,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x303",
+      "byte": 0,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x321",
+      "byte": 7,
+      "bit_lsb0": 7,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x323",
+      "byte": 1,
+      "bit_lsb0": 0,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x3F2",
+      "byte": 4,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x3F2",
+      "byte": 6,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x3F2",
+      "byte": 6,
+      "bit_lsb0": 5,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x3F2",
+      "byte": 6,
+      "bit_lsb0": 7,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x52F",
+      "byte": 5,
+      "bit_lsb0": 2,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x52F",
+      "byte": 6,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x52F",
+      "byte": 6,
+      "bit_lsb0": 5,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x53E",
+      "byte": 0,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 3,
+      "after_frames": 3
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x53E",
+      "byte": 0,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 3,
+      "after_frames": 3
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x70B",
+      "byte": 0,
+      "bit_lsb0": 2,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x70B",
+      "byte": 6,
+      "bit_lsb0": 6,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x724",
+      "byte": 0,
+      "bit_lsb0": 2,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x727",
+      "byte": 0,
+      "bit_lsb0": 3,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x709",
+      "byte": 0,
+      "bit_lsb0": 4,
+      "before_one_fraction": 0.07692307692307693,
+      "after_one_fraction": 1.0,
+      "delta": 0.9230769230769231,
+      "before_frames": 13,
+      "after_frames": 13
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x23A",
+      "byte": 0,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x2A4",
+      "byte": 0,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x2D2",
+      "byte": 4,
+      "bit_lsb0": 0,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x2D2",
+      "byte": 4,
+      "bit_lsb0": 1,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x321",
+      "byte": 6,
+      "bit_lsb0": 7,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x321",
+      "byte": 7,
+      "bit_lsb0": 7,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x324",
+      "byte": 1,
+      "bit_lsb0": 0,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x348",
+      "byte": 4,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x38B",
+      "byte": 2,
+      "bit_lsb0": 6,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x38B",
+      "byte": 4,
+      "bit_lsb0": 6,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x3F2",
+      "byte": 6,
+      "bit_lsb0": 4,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x3F2",
+      "byte": 6,
+      "bit_lsb0": 5,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x3F2",
+      "byte": 6,
+      "bit_lsb0": 7,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x528",
+      "byte": 3,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x53E",
+      "byte": 0,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 3,
+      "after_frames": 3
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x53E",
+      "byte": 0,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 3,
+      "after_frames": 3
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x70B",
+      "byte": 0,
+      "bit_lsb0": 2,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x70B",
+      "byte": 6,
+      "bit_lsb0": 6,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x724",
+      "byte": 0,
+      "bit_lsb0": 2,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x727",
+      "byte": 0,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x752",
+      "byte": 0,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x204",
+      "byte": 4,
+      "bit_lsb0": 0,
+      "before_one_fraction": 0.975,
+      "after_one_fraction": 0.0,
+      "delta": -0.975,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x204",
+      "byte": 4,
+      "bit_lsb0": 1,
+      "before_one_fraction": 0.975,
+      "after_one_fraction": 0.0,
+      "delta": -0.975,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x204",
+      "byte": 4,
+      "bit_lsb0": 2,
+      "before_one_fraction": 0.975,
+      "after_one_fraction": 0.0,
+      "delta": -0.975,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x204",
+      "byte": 4,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.975,
+      "after_one_fraction": 0.0,
+      "delta": -0.975,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x204",
+      "byte": 4,
+      "bit_lsb0": 4,
+      "before_one_fraction": 0.975,
+      "after_one_fraction": 0.0,
+      "delta": -0.975,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x204",
+      "byte": 4,
+      "bit_lsb0": 5,
+      "before_one_fraction": 0.025,
+      "after_one_fraction": 1.0,
+      "delta": 0.975,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x318",
+      "byte": 2,
+      "bit_lsb0": 3,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.075,
+      "delta": -0.925,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x318",
+      "byte": 2,
+      "bit_lsb0": 4,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 0.925,
+      "delta": 0.925,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E05",
+      "action": "拍摄充电状态和数据",
+      "offset_s": 132.155,
+      "can_id": "0x212",
+      "byte": 1,
+      "bit_lsb0": 6,
+      "before_one_fraction": 0.05,
+      "after_one_fraction": 0.925,
+      "delta": 0.875,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x301",
+      "byte": 5,
+      "bit_lsb0": 5,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x301",
+      "byte": 5,
+      "bit_lsb0": 6,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x301",
+      "byte": 7,
+      "bit_lsb0": 3,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x302",
+      "byte": 4,
+      "bit_lsb0": 6,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x302",
+      "byte": 5,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x302",
+      "byte": 7,
+      "bit_lsb0": 2,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x302",
+      "byte": 7,
+      "bit_lsb0": 3,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x303",
+      "byte": 4,
+      "bit_lsb0": 1,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x303",
+      "byte": 5,
+      "bit_lsb0": 0,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x303",
+      "byte": 5,
+      "bit_lsb0": 1,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x303",
+      "byte": 5,
+      "bit_lsb0": 2,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x303",
+      "byte": 5,
+      "bit_lsb0": 3,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x303",
+      "byte": 5,
+      "bit_lsb0": 5,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x303",
+      "byte": 5,
+      "bit_lsb0": 6,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x303",
+      "byte": 6,
+      "bit_lsb0": 0,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x303",
+      "byte": 6,
+      "bit_lsb0": 7,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x303",
+      "byte": 7,
+      "bit_lsb0": 0,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x303",
+      "byte": 7,
+      "bit_lsb0": 2,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x303",
+      "byte": 7,
+      "bit_lsb0": 3,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x319",
+      "byte": 0,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x319",
+      "byte": 0,
+      "bit_lsb0": 5,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x319",
+      "byte": 4,
+      "bit_lsb0": 1,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x319",
+      "byte": 4,
+      "bit_lsb0": 6,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x319",
+      "byte": 5,
+      "bit_lsb0": 2,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x319",
+      "byte": 6,
+      "bit_lsb0": 0,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x319",
+      "byte": 6,
+      "bit_lsb0": 5,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x319",
+      "byte": 7,
+      "bit_lsb0": 1,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x319",
+      "byte": 7,
+      "bit_lsb0": 2,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x319",
+      "byte": 7,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x319",
+      "byte": 7,
+      "bit_lsb0": 4,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x319",
+      "byte": 7,
+      "bit_lsb0": 7,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x321",
+      "byte": 6,
+      "bit_lsb0": 7,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x324",
+      "byte": 1,
+      "bit_lsb0": 5,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x324",
+      "byte": 1,
+      "bit_lsb0": 6,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x348",
+      "byte": 4,
+      "bit_lsb0": 3,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x348",
+      "byte": 4,
+      "bit_lsb0": 4,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x38B",
+      "byte": 2,
+      "bit_lsb0": 6,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x38B",
+      "byte": 4,
+      "bit_lsb0": 6,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x3F2",
+      "byte": 6,
+      "bit_lsb0": 4,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x3F2",
+      "byte": 6,
+      "bit_lsb0": 5,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x3F2",
+      "byte": 6,
+      "bit_lsb0": 7,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x528",
+      "byte": 3,
+      "bit_lsb0": 3,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x528",
+      "byte": 3,
+      "bit_lsb0": 4,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x52F",
+      "byte": 5,
+      "bit_lsb0": 2,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x52F",
+      "byte": 5,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x53E",
+      "byte": 0,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 3,
+      "after_frames": 3
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x53E",
+      "byte": 0,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 3,
+      "after_frames": 3
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x70B",
+      "byte": 0,
+      "bit_lsb0": 2,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x70B",
+      "byte": 6,
+      "bit_lsb0": 6,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x724",
+      "byte": 0,
+      "bit_lsb0": 2,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x727",
+      "byte": 0,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x292",
+      "byte": 6,
+      "bit_lsb0": 1,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.05,
+      "delta": -0.95,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x318",
+      "byte": 2,
+      "bit_lsb0": 3,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.05,
+      "delta": -0.95,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x318",
+      "byte": 2,
+      "bit_lsb0": 4,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 0.95,
+      "delta": 0.95,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E07",
+      "action": "拍摄停止状态",
+      "offset_s": 327.251,
+      "can_id": "0x319",
+      "byte": 0,
+      "bit_lsb0": 5,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E07",
+      "action": "拍摄停止状态",
+      "offset_s": 327.251,
+      "can_id": "0x319",
+      "byte": 4,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E07",
+      "action": "拍摄停止状态",
+      "offset_s": 327.251,
+      "can_id": "0x319",
+      "byte": 4,
+      "bit_lsb0": 7,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E07",
+      "action": "拍摄停止状态",
+      "offset_s": 327.251,
+      "can_id": "0x319",
+      "byte": 5,
+      "bit_lsb0": 2,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E07",
+      "action": "拍摄停止状态",
+      "offset_s": 327.251,
+      "can_id": "0x319",
+      "byte": 5,
+      "bit_lsb0": 5,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E07",
+      "action": "拍摄停止状态",
+      "offset_s": 327.251,
+      "can_id": "0x319",
+      "byte": 5,
+      "bit_lsb0": 6,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E07",
+      "action": "拍摄停止状态",
+      "offset_s": 327.251,
+      "can_id": "0x319",
+      "byte": 7,
+      "bit_lsb0": 0,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E07",
+      "action": "拍摄停止状态",
+      "offset_s": 327.251,
+      "can_id": "0x319",
+      "byte": 7,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E07",
+      "action": "拍摄停止状态",
+      "offset_s": 327.251,
+      "can_id": "0x330",
+      "byte": 2,
+      "bit_lsb0": 0,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 3,
+      "after_frames": 3
+    },
+    {
+      "event_id": "E07",
+      "action": "拍摄停止状态",
+      "offset_s": 327.251,
+      "can_id": "0x330",
+      "byte": 3,
+      "bit_lsb0": 1,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 3,
+      "after_frames": 3
+    },
+    {
+      "event_id": "E07",
+      "action": "拍摄停止状态",
+      "offset_s": 327.251,
+      "can_id": "0x42F",
+      "byte": 0,
+      "bit_lsb0": 0,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E07",
+      "action": "拍摄停止状态",
+      "offset_s": 327.251,
+      "can_id": "0x42F",
+      "byte": 0,
+      "bit_lsb0": 1,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E07",
+      "action": "拍摄停止状态",
+      "offset_s": 327.251,
+      "can_id": "0x52F",
+      "byte": 5,
+      "bit_lsb0": 3,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E07",
+      "action": "拍摄停止状态",
+      "offset_s": 327.251,
+      "can_id": "0x52F",
+      "byte": 6,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E07",
+      "action": "拍摄停止状态",
+      "offset_s": 327.251,
+      "can_id": "0x52F",
+      "byte": 6,
+      "bit_lsb0": 5,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E07",
+      "action": "拍摄停止状态",
+      "offset_s": 327.251,
+      "can_id": "0x752",
+      "byte": 0,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x23E",
+      "byte": 3,
+      "bit_lsb0": 6,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 100,
+      "after_frames": 100
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x301",
+      "byte": 0,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x302",
+      "byte": 0,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x302",
+      "byte": 4,
+      "bit_lsb0": 6,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x303",
+      "byte": 0,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x324",
+      "byte": 1,
+      "bit_lsb0": 5,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x348",
+      "byte": 4,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x38D",
+      "byte": 1,
+      "bit_lsb0": 1,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x3F2",
+      "byte": 1,
+      "bit_lsb0": 2,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x3F2",
+      "byte": 6,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x3F2",
+      "byte": 6,
+      "bit_lsb0": 5,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x3F2",
+      "byte": 6,
+      "bit_lsb0": 7,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x42F",
+      "byte": 0,
+      "bit_lsb0": 1,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x528",
+      "byte": 3,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x52F",
+      "byte": 6,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x52F",
+      "byte": 6,
+      "bit_lsb0": 5,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x53E",
+      "byte": 0,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 3,
+      "after_frames": 3
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x53E",
+      "byte": 0,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 3,
+      "after_frames": 3
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x70B",
+      "byte": 0,
+      "bit_lsb0": 2,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x70B",
+      "byte": 6,
+      "bit_lsb0": 6,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x724",
+      "byte": 0,
+      "bit_lsb0": 2,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x727",
+      "byte": 0,
+      "bit_lsb0": 3,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x23E",
+      "byte": 3,
+      "bit_lsb0": 5,
+      "before_one_fraction": 0.02,
+      "after_one_fraction": 1.0,
+      "delta": 0.98,
+      "before_frames": 100,
+      "after_frames": 100
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x22B",
+      "byte": 0,
+      "bit_lsb0": 0,
+      "before_one_fraction": 0.963855421686747,
+      "after_one_fraction": 0.0,
+      "delta": -0.963855421686747,
+      "before_frames": 83,
+      "after_frames": 91
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x23E",
+      "byte": 3,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.94,
+      "after_one_fraction": 0.0,
+      "delta": -0.94,
+      "before_frames": 100,
+      "after_frames": 100
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x22B",
+      "byte": 0,
+      "bit_lsb0": 1,
+      "before_one_fraction": 0.9397590361445783,
+      "after_one_fraction": 0.0,
+      "delta": -0.9397590361445783,
+      "before_frames": 83,
+      "after_frames": 91
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x22B",
+      "byte": 0,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 81,
+      "after_frames": 85
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x22B",
+      "byte": 0,
+      "bit_lsb0": 5,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 81,
+      "after_frames": 85
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x22B",
+      "byte": 0,
+      "bit_lsb0": 6,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 81,
+      "after_frames": 85
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x22B",
+      "byte": 0,
+      "bit_lsb0": 7,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 81,
+      "after_frames": 85
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x22B",
+      "byte": 1,
+      "bit_lsb0": 0,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 81,
+      "after_frames": 85
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x22B",
+      "byte": 1,
+      "bit_lsb0": 1,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 81,
+      "after_frames": 85
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x22B",
+      "byte": 1,
+      "bit_lsb0": 2,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 81,
+      "after_frames": 85
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x22B",
+      "byte": 1,
+      "bit_lsb0": 3,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 81,
+      "after_frames": 85
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x22B",
+      "byte": 1,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 81,
+      "after_frames": 85
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x23A",
+      "byte": 2,
+      "bit_lsb0": 3,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x23A",
+      "byte": 4,
+      "bit_lsb0": 0,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x23A",
+      "byte": 4,
+      "bit_lsb0": 3,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x23A",
+      "byte": 4,
+      "bit_lsb0": 7,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x2A4",
+      "byte": 0,
+      "bit_lsb0": 1,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x2A4",
+      "byte": 5,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x301",
+      "byte": 6,
+      "bit_lsb0": 7,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x302",
+      "byte": 4,
+      "bit_lsb0": 3,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x302",
+      "byte": 4,
+      "bit_lsb0": 6,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x302",
+      "byte": 5,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x303",
+      "byte": 4,
+      "bit_lsb0": 3,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x303",
+      "byte": 6,
+      "bit_lsb0": 0,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x303",
+      "byte": 6,
+      "bit_lsb0": 2,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x303",
+      "byte": 6,
+      "bit_lsb0": 7,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x303",
+      "byte": 7,
+      "bit_lsb0": 0,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x318",
+      "byte": 2,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x318",
+      "byte": 2,
+      "bit_lsb0": 5,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x318",
+      "byte": 5,
+      "bit_lsb0": 0,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x318",
+      "byte": 5,
+      "bit_lsb0": 1,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x318",
+      "byte": 7,
+      "bit_lsb0": 6,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 40,
+      "after_frames": 40
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x319",
+      "byte": 0,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x319",
+      "byte": 0,
+      "bit_lsb0": 5,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x319",
+      "byte": 4,
+      "bit_lsb0": 1,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x319",
+      "byte": 4,
+      "bit_lsb0": 6,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x319",
+      "byte": 5,
+      "bit_lsb0": 2,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x319",
+      "byte": 6,
+      "bit_lsb0": 0,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x319",
+      "byte": 6,
+      "bit_lsb0": 5,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x319",
+      "byte": 7,
+      "bit_lsb0": 1,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x319",
+      "byte": 7,
+      "bit_lsb0": 2,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x319",
+      "byte": 7,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x319",
+      "byte": 7,
+      "bit_lsb0": 4,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x319",
+      "byte": 7,
+      "bit_lsb0": 7,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x321",
+      "byte": 6,
+      "bit_lsb0": 7,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x324",
+      "byte": 1,
+      "bit_lsb0": 5,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x330",
+      "byte": 2,
+      "bit_lsb0": 0,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 3,
+      "after_frames": 3
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x330",
+      "byte": 3,
+      "bit_lsb0": 1,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 3,
+      "after_frames": 3
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x348",
+      "byte": 4,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x353",
+      "byte": 7,
+      "bit_lsb0": 0,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x353",
+      "byte": 7,
+      "bit_lsb0": 1,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x353",
+      "byte": 7,
+      "bit_lsb0": 2,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x353",
+      "byte": 7,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x353",
+      "byte": 7,
+      "bit_lsb0": 4,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x353",
+      "byte": 7,
+      "bit_lsb0": 5,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x353",
+      "byte": 7,
+      "bit_lsb0": 6,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x353",
+      "byte": 7,
+      "bit_lsb0": 7,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x364",
+      "byte": 2,
+      "bit_lsb0": 2,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.0,
+      "delta": -1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x38B",
+      "byte": 2,
+      "bit_lsb0": 6,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x42F",
+      "byte": 0,
+      "bit_lsb0": 0,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x42F",
+      "byte": 0,
+      "bit_lsb0": 1,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x528",
+      "byte": 3,
+      "bit_lsb0": 3,
+      "before_one_fraction": 0.0,
+      "after_one_fraction": 1.0,
+      "delta": 1.0,
+      "before_frames": 4,
+      "after_frames": 4
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x22B",
+      "byte": 1,
+      "bit_lsb0": 5,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.023529411764705882,
+      "delta": -0.9764705882352941,
+      "before_frames": 81,
+      "after_frames": 85
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x22B",
+      "byte": 1,
+      "bit_lsb0": 6,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.023529411764705882,
+      "delta": -0.9764705882352941,
+      "before_frames": 81,
+      "after_frames": 85
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x22B",
+      "byte": 1,
+      "bit_lsb0": 7,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.047058823529411764,
+      "delta": -0.9529411764705882,
+      "before_frames": 81,
+      "after_frames": 85
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x22B",
+      "byte": 2,
+      "bit_lsb0": 0,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.058823529411764705,
+      "delta": -0.9411764705882353,
+      "before_frames": 81,
+      "after_frames": 85
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x22B",
+      "byte": 2,
+      "bit_lsb0": 1,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.058823529411764705,
+      "delta": -0.9411764705882353,
+      "before_frames": 81,
+      "after_frames": 85
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x22B",
+      "byte": 2,
+      "bit_lsb0": 2,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.07058823529411765,
+      "delta": -0.9294117647058824,
+      "before_frames": 81,
+      "after_frames": 85
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x709",
+      "byte": 0,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.07692307692307693,
+      "delta": -0.9230769230769231,
+      "before_frames": 13,
+      "after_frames": 13
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x22B",
+      "byte": 2,
+      "bit_lsb0": 3,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.08235294117647059,
+      "delta": -0.9176470588235294,
+      "before_frames": 81,
+      "after_frames": 85
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x22B",
+      "byte": 2,
+      "bit_lsb0": 4,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.08235294117647059,
+      "delta": -0.9176470588235294,
+      "before_frames": 81,
+      "after_frames": 85
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x22B",
+      "byte": 2,
+      "bit_lsb0": 5,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.08235294117647059,
+      "delta": -0.9176470588235294,
+      "before_frames": 81,
+      "after_frames": 85
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x22B",
+      "byte": 2,
+      "bit_lsb0": 6,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.09411764705882353,
+      "delta": -0.9058823529411765,
+      "before_frames": 81,
+      "after_frames": 85
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x22B",
+      "byte": 2,
+      "bit_lsb0": 7,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.09411764705882353,
+      "delta": -0.9058823529411765,
+      "before_frames": 81,
+      "after_frames": 85
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x22B",
+      "byte": 3,
+      "bit_lsb0": 0,
+      "before_one_fraction": 1.0,
+      "after_one_fraction": 0.09411764705882353,
+      "delta": -0.9058823529411765,
+      "before_frames": 81,
+      "after_frames": 85
+    }
+  ],
+  "rate_changes": [],
+  "stable_mode_changes": [
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x1FB",
+      "before_mode": "05 02 00 00 00 00 00 00",
+      "after_mode": "00 00 00 00 00 00 00 00",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x212",
+      "before_mode": "58 04 00 00 82 ff 77 62",
+      "after_mode": "58 0c 00 00 82 ff 77 62",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 0.625
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x21D",
+      "before_mode": "04 00 35 00 00 00 00 00",
+      "after_mode": "4c 00 02 20 00 00 10 00",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 0.65
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x25D",
+      "before_mode": "36 41 01 16 04 f0 d8 03",
+      "after_mode": "76 81 19 ac 04 f0 d8 03",
+      "before_mode_fraction": 0.6,
+      "after_mode_fraction": 0.525
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x2A4",
+      "before_mode": "9a bf bc e3 2f ff 7d 3a",
+      "after_mode": "9a bf bc e3 2f ef 7d 3a",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 0.5
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x2D3",
+      "before_mode": "d0 00 5c 02 43 fd 20 66",
+      "after_mode": "d1 00 5c 02 43 fd 20 66",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 0.875
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x2F2",
+      "before_mode": "12 01",
+      "after_mode": "62 01",
+      "before_mode_fraction": 0.8,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x310",
+      "before_mode": "0d 03 00 00 18 f1 00 aa",
+      "after_mode": "0a 01 6d 10 04 00 87 00",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 0.5
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x32A",
+      "before_mode": "50 7e ff 0f 78",
+      "after_mode": "52 7e ff 0f 7a",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x364",
+      "before_mode": "00 82 7c 1f",
+      "after_mode": "00 82 78 1f",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 0.75
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x3D2",
+      "before_mode": "58 3e d6 00 96 c0 df 00",
+      "after_mode": "5a 3e d6 00 96 c0 df 00",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x41D",
+      "before_mode": "00",
+      "after_mode": "60",
+      "before_mode_fraction": 0.775,
+      "after_mode_fraction": 0.65
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x43D",
+      "before_mode": "00 00 ff 1f 40 00",
+      "after_mode": "01 00 ff 1f 40 20",
+      "before_mode_fraction": 0.975,
+      "after_mode_fraction": 0.525
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x45A",
+      "before_mode": "fd 07 f8 ff 03 00 03 00",
+      "after_mode": "20 47 47 c7 3f 55 00 65",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 0.5
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x72A",
+      "before_mode": "01 39 30 30 31 59 54 41",
+      "after_mode": "02 00 de 57 60 00 00 00",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x739",
+      "before_mode": "2c 06 23 01 00",
+      "after_mode": "2d 06 24 01 00",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 0.5
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x782",
+      "before_mode": "67 86 85 74 01 00 00 00",
+      "after_mode": "69 47 85 74 01 00 00 00",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E03",
+      "action": "插枪",
+      "offset_s": 12.23,
+      "can_id": "0x7F1",
+      "before_mode": "02 00 00 0f 00 00 00",
+      "after_mode": "01 00 00 00 00 08 00",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 0.5
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x1FB",
+      "before_mode": "05 02 00 00 00 00 00 00",
+      "after_mode": "00 00 00 00 00 00 00 00",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x310",
+      "before_mode": "0d 03 00 00 18 f1 00 aa",
+      "after_mode": "0a 01 6d 10 04 00 87 00",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 0.5
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x323",
+      "before_mode": "3b 15 20 01 02",
+      "after_mode": "3b 14 21 01 02",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 0.75
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x32A",
+      "before_mode": "5c 7e ff 0f 84",
+      "after_mode": "5e 7e ff 0f 86",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x364",
+      "before_mode": "00 82 72 1f",
+      "after_mode": "00 82 6e 1f",
+      "before_mode_fraction": 0.75,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x373",
+      "before_mode": "08 2d 47 00 00 de 06 1f",
+      "after_mode": "09 2d 47 00 00 de 06 1f",
+      "before_mode_fraction": 0.75,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x3D2",
+      "before_mode": "5a 3e d6 00 96 c0 df 00",
+      "after_mode": "5c 3e d6 00 96 c0 df 00",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x72A",
+      "before_mode": "01 39 30 30 31 59 54 41",
+      "after_mode": "02 00 de 57 60 00 00 00",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x782",
+      "before_mode": "03 56 84 74 01 00 00 00",
+      "after_mode": "05 8d 83 74 01 00 00 00",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E04",
+      "action": "检查并启动充电，记录秒数和启动方式",
+      "offset_s": 42.206,
+      "can_id": "0x7F1",
+      "before_mode": "01 00 00 00 00 08 00",
+      "after_mode": "02 00 00 0f 00 00 00",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 0.5
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x1FB",
+      "before_mode": "05 02 00 00 00 00 00 00",
+      "after_mode": "00 00 00 00 00 00 00 00",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x22A",
+      "before_mode": "00 00 7d 16",
+      "after_mode": "00 00 6d 16",
+      "before_mode_fraction": 0.55,
+      "after_mode_fraction": 0.525
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x292",
+      "before_mode": "57 cb 1d 77 d6 01 83 00",
+      "after_mode": "57 cb 1d 77 d6 01 84 00",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 0.725
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x310",
+      "before_mode": "0d 03 00 00 18 f1 00 aa",
+      "after_mode": "0a 01 6d 10 04 00 87 00",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 0.5
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x32A",
+      "before_mode": "90 7e 55 00 ff",
+      "after_mode": "92 7e 55 00 01",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x361",
+      "before_mode": "33 0d 20 03 01",
+      "after_mode": "34 0d 20 03 01",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 0.5
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x364",
+      "before_mode": "3c 78 ce 1f",
+      "after_mode": "3c 78 d2 1f",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x373",
+      "before_mode": "0a 2d 47 00 00 de 06 1f",
+      "after_mode": "09 2d 47 00 00 de 06 1f",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 0.75
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x37D",
+      "before_mode": "01 6b 6d 6d 00 00 00 00",
+      "after_mode": "01 6b 6d 6e 00 00 00 00",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 0.5
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x3D2",
+      "before_mode": "5c 3e d6 00 d2 c1 df 00",
+      "after_mode": "5c 3e d6 00 dc c1 df 00",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 0.5
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x72A",
+      "before_mode": "01 39 30 30 31 59 54 41",
+      "after_mode": "02 00 de 57 60 00 00 00",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x782",
+      "before_mode": "51 b2 81 74 01 00 00 00",
+      "after_mode": "53 d7 82 74 01 00 00 00",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E06",
+      "action": "停止充电，记录秒数和停止方式",
+      "offset_s": 252.241,
+      "can_id": "0x7F1",
+      "before_mode": "02 00 00 0f 00 00 00",
+      "after_mode": "01 00 00 00 00 08 00",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 0.5
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x1FB",
+      "before_mode": "05 02 00 00 00 00 00 00",
+      "after_mode": "00 00 00 00 00 00 00 00",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x2D2",
+      "before_mode": "70 29 a3 4e 00 00 a1 01",
+      "after_mode": "6f 29 a3 4e 00 00 a1 01",
+      "before_mode_fraction": 0.65,
+      "after_mode_fraction": 0.725
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x310",
+      "before_mode": "0d 03 00 00 18 f1 00 aa",
+      "after_mode": "0a 01 6d 10 04 00 87 00",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 0.5
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x32A",
+      "before_mode": "54 7e ff 0f 7c",
+      "after_mode": "56 7e ff 0f 7e",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x332",
+      "before_mode": "3d 1a 8d 06 68 25",
+      "after_mode": "3d 1a 8d 06 68 19",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 0.5
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x38D",
+      "before_mode": "56 05 aa aa aa 24 49 02",
+      "after_mode": "56 06 aa aa aa 24 49 02",
+      "before_mode_fraction": 0.75,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x422",
+      "before_mode": "70 00 10 00 00 00",
+      "after_mode": "00 00 10 00 00 00",
+      "before_mode_fraction": 0.525,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x42F",
+      "before_mode": "c3 b0 cb 02 fa 00 ff",
+      "after_mode": "c1 b0 cb 02 fa 00 ff",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x45A",
+      "before_mode": "20 47 47 c7 3f 54 00 65",
+      "after_mode": "fd 07 f8 ff 03 00 04 00",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 0.5
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x72A",
+      "before_mode": "01 39 30 30 31 59 54 41",
+      "after_mode": "02 00 de 57 60 00 00 00",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x782",
+      "before_mode": "03 56 84 74 01 00 00 00",
+      "after_mode": "05 8d 83 74 01 00 00 00",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E08",
+      "action": "解锁充电口",
+      "offset_s": 342.235,
+      "can_id": "0x7F1",
+      "before_mode": "01 00 00 00 00 08 00",
+      "after_mode": "02 00 00 0f 00 00 00",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 0.5
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x1FB",
+      "before_mode": "00 00 00 00 00 00 00 00",
+      "after_mode": "05 02 00 00 00 00 00 00",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x2A4",
+      "before_mode": "bb 67 7d e5 45 ff ff 3b",
+      "after_mode": "b9 5f 7d e5 45 ef ff 3b",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 0.75
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x310",
+      "before_mode": "14 05 00 00 47 77 e4 78",
+      "after_mode": "11 00 00 00 00 00 00 00",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 0.5
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x32A",
+      "before_mode": "9a 7e ff 0f c2",
+      "after_mode": "9c 7e ff 0f c4",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x353",
+      "before_mode": "7b 0f 39 80 07 14 fc 00",
+      "after_mode": "7b 0f 39 80 07 14 fc ff",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x364",
+      "before_mode": "00 82 fc 1f",
+      "after_mode": "00 82 f8 1f",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x37D",
+      "before_mode": "01 6b 6e 6e 00 00 00 00",
+      "after_mode": "d6 fe dd dc 00 08 20 00",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 0.5
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x382",
+      "before_mode": "43 18 27 00 00",
+      "after_mode": "43 19 27 00 00",
+      "before_mode_fraction": 0.75,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x42F",
+      "before_mode": "c0 b0 cb 02 fa 00 ff",
+      "after_mode": "c3 b0 cb 02 fa 00 ff",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x53E",
+      "before_mode": "0a 01 17 00 fc 00 08 00",
+      "after_mode": "12 4a f3 71 b2 0d ec 7b",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 0.5
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x708",
+      "before_mode": "31 22 0d 00 00",
+      "after_mode": "30 22 0d 00 00",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 0.5
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x72A",
+      "before_mode": "01 39 30 30 31 59 54 41",
+      "after_mode": "02 00 de 57 60 00 00 00",
+      "before_mode_fraction": 1.0,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x782",
+      "before_mode": "08 75 85 74 01 00 00 00",
+      "after_mode": "0b 81 84 74 01 00 00 00",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 1.0
+    },
+    {
+      "event_id": "E09",
+      "action": "拔枪",
+      "offset_s": 357.244,
+      "can_id": "0x7F1",
+      "before_mode": "02 00 00 0f 00 00 00",
+      "after_mode": "01 00 00 00 00 08 00",
+      "before_mode_fraction": 0.5,
+      "after_mode_fraction": 0.5
+    }
+  ]
+}

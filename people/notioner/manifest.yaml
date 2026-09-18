@@ -35,8 +35,8 @@ resources:
   - id: l3-knowledge
     path: ../../assets/l3-knowledge
     type: asset-directory
-    access: read
+    access: write
     required: true
     purpose: >
-      读取 Castle 中的 L3 Knowledge Assets，
+      读取和写入 Castle 中的 L3 Knowledge Assets，
       用于识别、同步和维护 Notioner 当前负责的 Notion 笔记资产。

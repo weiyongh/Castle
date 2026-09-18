@@ -1,0 +1,290 @@
+{
+  "schema_version": "acquisition-context-v1",
+  "review_status": "DRAFT",
+  "reviewer": null,
+  "reviewed_at": null,
+  "package": {
+    "name": "001-慢充-控制主线采集_2__20260917_132348_155__S0035",
+    "path": "/Users/hwy/Castle_Ranch/acq_baseline/TESLA-M3-SOP5/001-慢充-控制主线采集_2__20260917_132348_155__S0035",
+    "collection_name": "2",
+    "source_files": [
+      {
+        "path": "..",
+        "kind": "vehicle-parent-directory",
+        "vehicle_id": "TESLA-M3-SOP5"
+      },
+      {
+        "path": "session.json",
+        "size": 7570,
+        "mtime_ns": 1789623074000000000
+      },
+      {
+        "path": "event_timeline.csv",
+        "size": 1214,
+        "mtime_ns": 1789623074000000000
+      },
+      {
+        "path": "photos/E05-P01_拍摄充电状态和数据_20260917_132626_185.jpg",
+        "size": 3237641,
+        "mtime_ns": 1789623074000000000
+      },
+      {
+        "path": "photos/E05-P02_拍摄充电状态和数据_20260917_132658_808.jpg",
+        "size": 3268968,
+        "mtime_ns": 1789623074000000000
+      },
+      {
+        "path": "photos/E05-P03_拍摄充电状态和数据_20260917_132752_965.jpg",
+        "size": 3730425,
+        "mtime_ns": 1789623074000000000
+      },
+      {
+        "path": "photos/E05-P04_拍摄充电状态和数据_20260917_132802_883.jpg",
+        "size": 3922577,
+        "mtime_ns": 1789623076000000000
+      },
+      {
+        "path": "photos/E07-P01_拍摄停止状态_20260917_132937_590.jpg",
+        "size": 3994696,
+        "mtime_ns": 1789623076000000000
+      },
+      {
+        "path": "can/can_20260917132305.asc",
+        "size": 42250492,
+        "mtime_ns": 1789623052000000000
+      }
+    ]
+  },
+  "validation": {
+    "status": "PASS",
+    "issues": [],
+    "voicerunner": {
+      "schema_version": 1,
+      "app_version": "0.2.0",
+      "start_clock": "2026-09-17T13:23:48.155+08:00",
+      "end_clock": "2026-09-17T13:31:03.305+08:00",
+      "duration_s": 435.149857
+    },
+    "asc_files": [
+      {
+        "file": "can/can_20260917132305.asc",
+        "time": {
+          "start_clock": "2026-09-17T13:24:06.000+08:00",
+          "end_clock": "2026-09-17T13:30:50.968+08:00",
+          "first_offset_s": 0.0,
+          "last_offset_s": 404.9687,
+          "duration_s": 404.9687
+        },
+        "fingerprint": {
+          "path": "can/can_20260917132305.asc",
+          "size": 42250492,
+          "mtime_ns": 1789623052000000000
+        }
+      }
+    ]
+  },
+  "round": {
+    "round_id": "S0035",
+    "case_id": "001-慢充-控制主线采集",
+    "vehicle_id": "TESLA-M3-SOP5",
+    "source_script_name": "001-慢充-控制主线采集_2.txt",
+    "audio_recording": {
+      "enabled": false,
+      "status": "DISABLED",
+      "file_name": null,
+      "content_uri": null,
+      "request_clock": null,
+      "request_offset_us": null,
+      "start_clock": null,
+      "start_offset_us": null,
+      "start_method": null,
+      "start_accuracy_us": null,
+      "end_clock": null,
+      "end_script_time_us": null,
+      "duration_us": null,
+      "sample_rate_hz": null,
+      "channel_count": null,
+      "mime_type": null,
+      "bit_rate": null,
+      "end_reason": null,
+      "failure_clock": null,
+      "failure_script_time_us": null,
+      "failure_reason": null
+    },
+    "events": [
+      {
+        "event_id": "E01",
+        "event_sequence": 1,
+        "title": "开始采集",
+        "detail": "车辆停稳并保持 P 挡\n交流充电枪未连接\n交流充电设施正常可用\n车辆当前电量允许建立充电\n确认采集设备已就绪\n保持初始状态 30 秒",
+        "plan_time_s": 0,
+        "status": "triggered",
+        "actual_clock": "2026-09-17T13:23:48.217+08:00",
+        "actual_script_time_us": 61575,
+        "resources": []
+      },
+      {
+        "event_id": "E02",
+        "event_sequence": 2,
+        "title": "新建与 CAN 同名的现场记录",
+        "detail": "使用与本次 CAN 文件同名关联的纯文本文件",
+        "plan_time_s": 15,
+        "status": "triggered",
+        "actual_clock": "2026-09-17T13:24:03.220+08:00",
+        "actual_script_time_us": 15065460,
+        "resources": []
+      },
+      {
+        "event_id": "E03",
+        "event_sequence": 3,
+        "title": "插枪",
+        "detail": "将充电枪完全插入充电口\n插入后等待 30 秒，确认充电是否自动启动",
+        "plan_time_s": 30,
+        "status": "triggered",
+        "actual_clock": "2026-09-17T13:24:18.230+08:00",
+        "actual_script_time_us": 30074544,
+        "resources": []
+      },
+      {
+        "event_id": "E04",
+        "event_sequence": 4,
+        "title": "检查并启动充电，记录秒数和启动方式",
+        "detail": "如充电已经自动启动，不重复操作\n如充电尚未启动，使用充电设施支持的正常方式启动充电\n在现场记录中填写当前采集秒数和启动方式：自动启动或充电设施人工启动\n等待充电功率稳定建立",
+        "plan_time_s": 60,
+        "status": "triggered",
+        "actual_clock": "2026-09-17T13:24:48.206+08:00",
+        "actual_script_time_us": 60051364,
+        "resources": []
+      },
+      {
+        "event_id": "E05",
+        "event_sequence": 5,
+        "title": "拍摄充电状态和数据",
+        "detail": "确认充电已稳定建立\n拍摄车辆或充电设施的显示界面\n拍清当前可显示的充电状态、电压、电流、功率和 SOC\n保持充电，不操作车辆或充电设施",
+        "plan_time_s": 150,
+        "status": "triggered",
+        "actual_clock": "2026-09-17T13:26:18.155+08:00",
+        "actual_script_time_us": 150000442,
+        "resources": [
+          {
+            "resource_id": "E05-P01",
+            "type": "PHOTO",
+            "target_id": "E05",
+            "file": "photos/E05-P01_拍摄充电状态和数据_20260917_132626_185.jpg",
+            "clock": "2026-09-17T13:26:26.185+08:00",
+            "script_time_us": 158029973,
+            "file_status": "AVAILABLE",
+            "values": []
+          },
+          {
+            "resource_id": "E05-P02",
+            "type": "PHOTO",
+            "target_id": "E05",
+            "file": "photos/E05-P02_拍摄充电状态和数据_20260917_132658_808.jpg",
+            "clock": "2026-09-17T13:26:58.808+08:00",
+            "script_time_us": 190652706,
+            "file_status": "AVAILABLE",
+            "values": []
+          },
+          {
+            "resource_id": "E05-P03",
+            "type": "PHOTO",
+            "target_id": "E05",
+            "file": "photos/E05-P03_拍摄充电状态和数据_20260917_132752_965.jpg",
+            "clock": "2026-09-17T13:27:52.965+08:00",
+            "script_time_us": 244810481,
+            "file_status": "AVAILABLE",
+            "values": []
+          },
+          {
+            "resource_id": "E05-P04",
+            "type": "PHOTO",
+            "target_id": "E05",
+            "file": "photos/E05-P04_拍摄充电状态和数据_20260917_132802_883.jpg",
+            "clock": "2026-09-17T13:28:02.883+08:00",
+            "script_time_us": 254728056,
+            "file_status": "AVAILABLE",
+            "values": []
+          }
+        ]
+      },
+      {
+        "event_id": "E06",
+        "event_sequence": 6,
+        "title": "停止充电，记录秒数和停止方式",
+        "detail": "使用车辆或充电设施当前可用的正常方式停止充电\n在现场记录中填写当前采集秒数和停止方式：车辆侧或充电设施侧\n停止后保持充电枪连接，不立即解锁或拔枪\n等待充电功率和充电状态自然退出",
+        "plan_time_s": 270,
+        "status": "triggered",
+        "actual_clock": "2026-09-17T13:28:18.241+08:00",
+        "actual_script_time_us": 270085613,
+        "resources": []
+      },
+      {
+        "event_id": "E07",
+        "event_sequence": 7,
+        "title": "拍摄停止状态",
+        "detail": "拍摄车辆或充电设施的显示界面\n拍清充电已停止、充电枪仍连接以及当前可显示的电压、电流和功率",
+        "plan_time_s": 345,
+        "status": "triggered",
+        "actual_clock": "2026-09-17T13:29:33.251+08:00",
+        "actual_script_time_us": 345096251,
+        "resources": [
+          {
+            "resource_id": "E07-P01",
+            "type": "PHOTO",
+            "target_id": "E07",
+            "file": "photos/E07-P01_拍摄停止状态_20260917_132937_590.jpg",
+            "clock": "2026-09-17T13:29:37.590+08:00",
+            "script_time_us": 349435430,
+            "file_status": "AVAILABLE",
+            "values": []
+          }
+        ]
+      },
+      {
+        "event_id": "E08",
+        "event_sequence": 8,
+        "title": "解锁充电口",
+        "detail": "确认充电已结束并满足安全拔枪条件\n使用车辆或充电设施支持的正常方式解锁充电口",
+        "plan_time_s": 360,
+        "status": "triggered",
+        "actual_clock": "2026-09-17T13:29:48.235+08:00",
+        "actual_script_time_us": 360080016,
+        "resources": []
+      },
+      {
+        "event_id": "E09",
+        "event_sequence": 9,
+        "title": "拔枪",
+        "detail": "拔出充电枪并放回充电设施\n保持充电枪与车辆断开 60 秒",
+        "plan_time_s": 375,
+        "status": "triggered",
+        "actual_clock": "2026-09-17T13:30:03.244+08:00",
+        "actual_script_time_us": 375088738,
+        "resources": []
+      },
+      {
+        "event_id": "E10",
+        "event_sequence": 10,
+        "title": "保存现场记录，与 CAN 一起交付",
+        "detail": "确认启动和停止方式已经记录\n将现场记录与本次 CAN 文件一起保存和交付",
+        "plan_time_s": 420,
+        "status": "triggered",
+        "actual_clock": "2026-09-17T13:30:48.159+08:00",
+        "actual_script_time_us": 420003966,
+        "resources": []
+      },
+      {
+        "event_id": "E11",
+        "event_sequence": 11,
+        "title": "停止采集",
+        "detail": "保存并核对本次采集文件",
+        "plan_time_s": 435,
+        "status": "triggered",
+        "actual_clock": "2026-09-17T13:31:03.260+08:00",
+        "actual_script_time_us": 435105433,
+        "resources": []
+      }
+    ]
+  }
+}

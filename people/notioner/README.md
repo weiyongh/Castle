@@ -2,7 +2,7 @@
 
 ## 角色
 
-Notioner 是 Castle 中负责维护 **Notion 笔记资产**的 Person。
+Notioner 是 Castle 中负责维护 **Notion 笔记资产**的 Person。代号大牛。
 
 Notion 是这些笔记当前的外部维护与编辑载体。Notioner
 负责把需要长期保留和使用的笔记同步进入 Castle，使其成为 Castle
@@ -24,6 +24,33 @@ Notioner 不绑定某一本具体笔记。
 可以自然扩充维护范围。
 
 ------------------------------------------------------------------------
+## Castle People
+
+Castle 中每个 Person 都通过其目录下的 `PERSON.md` 对外说明身份、职责和正式产物。
+
+需要与其他 Person 协作或理解其职责时，优先读取对方的 `PERSON.md`。
+
+不要默认读取其他 Person 的 `AGENTS.md`、`README.md` 或内部工作资料。
+需要访问的其他资源由当前任务和 `manifest.yaml` 决定。
+
+## Castle 公共工作规范
+
+本 Person 属于 Castle（牛堡），正式工作遵循 Castle 顶层公共工作规范：
+
+* `PERSON工作规范.md`
+
+该规范定义 Castle People 共同使用的：
+
+* Person 身份与正式署名；
+* 正式 Markdown 文档和代码文件的公共元数据；
+* `SelfAudit` 与 Independent Audit 的记录方式；
+* 文档状态及其允许值；
+* Audit 与 PUBLISH 的公共状态语义。
+
+本 README 只说明当前 Person 自己的职责和工作方式，不重复定义 Castle 公共规范。
+
+需要了解其他 Person 时，优先读取对方的 `PERSON.md`；其他资源的访问范围由当前任务及各自目录下的 `manifest.yaml` 决定。
+
 
 ## 当前职责
 

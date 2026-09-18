@@ -1,0 +1,78 @@
+# manifest.yaml
+#
+# Planner 外部资源清单
+#
+# 作用：
+# - 声明 Planner 为履行职责可以读取的外部资源
+# - 为 Fresh Agent / Self-Reboot 提供明确的 Context 入口
+# - 限制 Agent 不要无目的扫描 Castle 其他目录
+#
+# 注意：
+# - 本文件描述的是工作层面的资源读取边界
+# - 不等同于操作系统或运行环境的强制访问控制
+# - Person 自身目录内的 README.md、AGENTS.md、src/、doc/、
+#   work/、tasks/、context/ 等不需要在这里重复声明
+
+version: 0.1
+
+resources:
+  - id: Castle-README
+    path: ../../README.md
+    type: document
+    access: read
+    required: true
+    purpose: >
+      读取Castle（牛堡）的公约文件。
+  
+  - id: Castle-PERSON
+    path: ../../PERSON工作规范.md
+    type: document
+    access: read
+    required: true
+    purpose: >
+      读取Castle（牛堡）的工作规范文件。
+
+  # Castle 所有 Agent 共用的工作目录参考规范。
+  # Planner 启动或 Self-Reboot 时应读取，用于理解自己的目录结构、
+  # 各类文件的职责以及 Castle Person 的基本工作约定。
+  - id: agent-reference-folder
+    path: ../../Agent_Reference_Folder.md
+    type: document
+    access: read
+    required: true
+    purpose: >
+      读取 Castle Agent Reference Folder，
+      理解 Person 工作目录结构、Context、Assets 与 Self-Reboot 的共同约定。
+
+  # Planner 参考的 L3 Knowledge Asset。
+  - id: l3-knowledge
+    path: ../../assets/l3-knowledge
+    type: asset-directory
+    access: read
+    required: true
+    purpose: >
+      读取 Castle 中的 L3 Knowledge Assets。
+
+  - id: Acquisition
+    path: ../../assets/Acquisition
+    type: asset-directory
+    access: write
+    required: true
+    purpose: >
+      读写 Castle 中已发布的 Acquisition Assets。
+
+  - id: Castle-Ranch
+    path: ../../../Castle-Ranch
+    type: ranch-rawdata-directory
+    access: read
+    required: true
+    purpose: >
+      读取牛堡牧场的所有资源。
+
+  - id: Castle-Tools
+    path: ../../tools
+    type: castle-tools-directory
+    access: read
+    required: true
+    purpose: >
+      使用牛堡工具库完成牛堡任务。
